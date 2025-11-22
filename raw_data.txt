@@ -1,0 +1,1174 @@
+
+ARCHETYPE COLORS & CATEGORIES
+---
+
+1. Infrastructure Integrators (#1F8C7D - Teal)
+   - Connect supply and demand at scale
+   - Provide backbone systems
+   - Examples: Airlines, hotels, OTAs, GDS platforms
+
+2. Vertical Specialists (#E85D75 - Pink/Red)
+   - End-to-end solutions within single segment
+   - Specialized expertise
+   - Examples: Hotel PMS systems, revenue management tools
+
+3. Experience Designers (#F5A623 - Orange)
+   - Create memorable activities
+   - Engage travelers emotionally
+   - Examples: Tour operators, restaurants, attractions
+
+4. Facilitators & Enablers (#4A90E2 - Blue)
+   - Remove friction in transactions
+   - Enable other players
+   - Examples: Payment processors, cloud infrastructure, APIs
+
+5. Community Builders (#BD10E0 - Purple)
+   - Create spaces for interaction
+   - Build knowledge and loyalty
+   - Examples: Social media, travel communities, review platforms
+
+6. Regulators & Standards Setters (#7ED321 - Lime Green)
+   - Define rules and enforce compliance
+   - Certify quality
+   - Examples: UNWTO, government tourism boards, industry associations
+
+7. Market Aggregators (#B8E986 - Light Green)
+   - Wholesale buyers and resellers
+   - Link suppliers to intermediaries
+   - Examples: Bed banks, wholesale platforms, tour operator networks
+
+---
+
+TRANSPORT & MOBILITY SEGMENT (20 players)
+---
+
+P001: Ryanair
+- Segment: Long-Distance Transport
+- Archetype: Infrastructure Integrators (Teal)
+- Description: European low-cost airline, 500+ routes, 40M+ annual passengers
+- Market Size: €7.2B revenue
+- Outbound Connections: P002, P003, P004, P040, P068
+- Inbound Connections: P040, P041, P068, P069
+- Business Model: Direct fares, ancillary revenue (baggage, seats, food), commission through GDS
+
+P002: Lufthansa
+- Segment: Long-Distance Transport
+- Archetype: Infrastructure Integrators (Teal)
+- Description: Full-service global airline, 290+ destinations, 36M+ passengers
+- Market Size: €35.8B revenue
+- Outbound Connections: P001, P003, P005, P040, P068
+- Inbound Connections: P040, P041, P068, P069
+- Business Model: Premium positioning, business travel focus, loyalty programs
+
+P003: Amadeus GDS
+- Segment: Technology Infrastructure
+- Archetype: Infrastructure Integrators (Teal) + Market Aggregators (Light Green)
+- Description: Global Distribution System, 435 airlines, 87K+ hotels, 8M+ travel agencies
+- Market Size: €6.5B revenue
+- Outbound Connections: P001, P002, P005, P040, P041, P044, P050
+- Inbound Connections: P001, P002, P040, P041, P044, P050
+- Business Model: Commission-based from airlines/hotels, subscription from travel agencies, data monetization
+
+P004: FlixBus
+- Segment: Long-Distance Transport
+- Archetype: Infrastructure Integrators (Teal)
+- Description: Budget intercity bus operator, 2.5K+ cities, 95M passengers/year
+- Market Size: €600M revenue
+- Outbound Connections: P001, P040, P068
+- Inbound Connections: P040, P041, P068
+- Business Model: Direct bookings, ancillary services, partnerships with accommodation
+
+P010: Uber
+- Segment: Local Mobility
+- Archetype: Infrastructure Integrators (Teal)
+- Description: Ride-hailing platform, 74.9B market size 2025, 100M+ active users
+- Market Size: €31.9B revenue
+- Outbound Connections: P040, P041, P068, P069
+- Inbound Connections: P040, P041
+- Business Model: 15-30% commission on fares, subscription options (Uber Plus), data monetization
+
+P061: Bolt
+- Segment: Local Mobility
+- Archetype: Infrastructure Integrators (Teal)
+- Description: European ride-hailing, 70+ cities, competitor to Uber
+- Market Size: €4.7B valuation
+- Outbound Connections: P040, P068
+- Inbound Connections: P040
+- Business Model: Commission-based, subscription tiers (Bolt Plus)
+
+P062: Bike/Scooter Sharing (Lime, Voi)
+- Segment: Local Mobility
+- Archetype: Infrastructure Integrators (Teal)
+- Description: Micro-mobility, 100+ cities, sustainable last-mile
+- Market Size: €10B valuation (combined)
+- Outbound Connections: P040
+- Inbound Connections: P040
+- Business Model: Pay-per-use, subscription passes, corporate partnerships
+
+P112: Transport for London
+- Segment: Local Mobility
+- Archetype: Infrastructure Integrators (Teal)
+- Description: Major public transport operator, cross-subsidy model
+- Market Size: Public funding based
+- Outbound Connections: P010, P062
+- Inbound Connections: P010, P062
+- Business Model: Passenger fares (40%), government subsidies (44%), advertising (8%), commercial (8%)
+
+P113: Berlin BVG
+- Segment: Local Mobility
+- Archetype: Infrastructure Integrators (Teal)
+- Description: German public transport, MaaS integration (Jelbi platform)
+- Outbound Connections: P062
+- Business Model: Public-private partnerships, MaaS revenue sharing
+
+P114: RATP (Paris)
+- Segment: Local Mobility
+- Archetype: Infrastructure Integrators (Teal)
+- Description: French public transport, employer mobility levy integration
+- Business Model: Fares, subsidies, employer levy revenue
+
+P059: Rental Car Companies
+- Segment: Long-Distance Transport
+- Archetype: Infrastructure Integrators (Teal) + Vertical Specialists (Pink)
+- Description: Hertz, Avis, Budget, Enterprise, Europcar
+- Market Size: €45B rental car market
+- Outbound Connections: P001, P002, P007, P008, P046, P068
+- Inbound Connections: P007, P008, P046
+- Business Model: Daily rental rates, insurance add-ons, loyalty programs, corporate contracts
+
+P060: Cruise Lines
+- Segment: Long-Distance Transport
+- Archetype: Infrastructure Integrators (Teal) + Experience Designers (Orange)
+- Description: Royal Caribbean, Disney, Carnival, Cunard, Celebrity
+- Market Size: €60B cruise industry
+- Outbound Connections: P007, P008, P014, P040, P051
+- Inbound Connections: P007, P008, P014, P040
+- Business Model: Per-person pricing, onboard spending, pre-cruise packages, excursions
+
+P115: Helsinki Whim MaaS
+- Segment: Local Mobility
+- Archetype: Infrastructure Integrators (Teal) + Experience Designers (Orange)
+- Description: Integrated MaaS platform combining transit + micro-mobility + ride-sharing
+- Outbound Connections: P010, P062, P113
+- Business Model: Subscription tiers, unified payment, usage-based pricing
+
+P116: EU Mobility Data Space
+- Segment: Data Infrastructure
+- Archetype: Facilitators & Enablers (Blue)
+- Description: EU-funded data-sharing infrastructure for mobility operators
+- Market Size: €15M Digital Europe Programme funding
+- Outbound Connections: P001, P112, P113, P114
+- Business Model: Public funding, enabling coordination and optimization
+
+---
+
+ACCOMMODATION & HOSPITALITY (15 players)
+---
+
+P005: Marriott International
+- Segment: Accommodation
+- Archetype: Infrastructure Integrators (Teal) + Vertical Specialists (Pink)
+- Description: Global hotel chain, 1.68M rooms, 144 countries, 7,600+ properties
+- Market Size: €19.2B revenue
+- Outbound Connections: P003, P006, P044, P050, P051
+- Inbound Connections: P003, P040, P041, P044, P050
+- Business Model: Room rates, ancillary services, franchise fees, loyalty programs
+
+P036: Hilton Hotels
+- Segment: Accommodation
+- Archetype: Infrastructure Integrators (Teal) + Vertical Specialists (Pink)
+- Description: Global hotel chain, 1.3M rooms, 530+ brands, 25+ countries
+- Market Size: €8.5B revenue
+- Outbound Connections: P003, P006, P044, P050, P051
+- Inbound Connections: P003, P040, P041, P044
+- Business Model: Brand licensing, management contracts, asset-light model, loyalty programs
+
+P037: Accor Hotels
+- Segment: Accommodation
+- Archetype: Infrastructure Integrators (Teal) + Vertical Specialists (Pink)
+- Description: International hotel group, 750K+ rooms, 50+ brands worldwide
+- Market Size: €6.2B revenue
+- Outbound Connections: P003, P006, P044, P050, P051
+- Inbound Connections: P003, P040, P041, P044
+- Business Model: Diversified portfolio (luxury to budget), management model, licensing
+
+P038: IHG Hotels
+- Segment: Accommodation
+- Archetype: Infrastructure Integrators (Teal) + Vertical Specialists (Pink)
+- Description: InterContinental Hotels Group, 900K+ rooms, 60+ brands
+- Market Size: €4.8B revenue
+- Outbound Connections: P003, P006, P044, P050, P051
+- Inbound Connections: P003, P040, P041, P044
+- Business Model: Franchise model, brand portfolio, corporate partnerships
+
+P007: Booking.com
+- Segment: OTA / Intermediary
+- Archetype: Infrastructure Integrators (Teal)
+- Description: Global OTA leader, 112.8B market cap, 2.5M+ accommodations, 69.3% EU market
+- Market Size: €21.4B revenue (2024)
+- Outbound Connections: P003, P005, P040, P041, P050, P068, P069
+- Inbound Connections: P001, P002, P005, P040, P041, P068
+- Business Model: Commission (15-25%), advertising, ancillary services, loyalty programs
+
+P008: Expedia
+- Segment: OTA / Intermediary
+- Archetype: Infrastructure Integrators (Teal)
+- Description: Major OTA, 15.3B market cap, 12.8B revenue, global presence
+- Market Size: €12.8B revenue
+- Outbound Connections: P003, P005, P040, P041, P050, P068
+- Inbound Connections: P001, P002, P005, P040, P041
+- Business Model: Commission-based, metasearch integration, vertical integration (Hotels.com, Vrbo)
+
+P009: Airbnb
+- Segment: Alternative Accommodation
+- Archetype: Infrastructure Integrators (Teal) + Experience Designers (Orange)
+- Description: Alternative accommodation platform, 91.1B market cap, 8.1M listings
+- Market Size: €9.9B revenue
+- Outbound Connections: P040, P041, P051, P068, P069
+- Inbound Connections: P040, P041, P051
+- Business Model: 3-16% service fee from guests, 14-16% from hosts, experiences, long-term stays
+
+P045: Vrbo (Vacation Rentals)
+- Segment: Alternative Accommodation
+- Archetype: Infrastructure Integrators (Teal) + Experience Designers (Orange)
+- Description: Vacation rental platform, 2M+ properties, Expedia-owned
+- Market Size: €1.5B revenue (estimated)
+- Outbound Connections: P008, P040, P068
+- Inbound Connections: P008, P040
+- Business Model: Commission-based (12-15%), subscription for hosts, ancillary services
+
+P044: Hotel Owners / Independents
+- Segment: Accommodation
+- Archetype: Experience Designers (Orange) + Vertical Specialists (Pink)
+- Description: Boutique hotels, family-run properties, unique local experiences
+- Market Size: €500B (estimated)
+- Outbound Connections: P003, P006, P013, P017, P018, P019, P021, P031, P034, P035, P040, P042, P043
+- Inbound Connections: P003, P006, P013, P017, P040, P042
+- Business Model: Room rates, ancillary services, direct bookings, local partnerships
+
+P055: Hostelworld
+- Segment: Budget Accommodation
+- Archetype: Infrastructure Integrators (Teal) + Vertical Specialists (Pink)
+- Description: Hostel booking platform, 40K+ hostels, budget travelers
+- Market Size: €180M market cap
+- Outbound Connections: P040, P041, P068
+- Inbound Connections: P040, P041
+- Business Model: Commission (8-12%), affiliate marketing, advertising
+
+P079: Hostelling International
+- Segment: Budget Accommodation
+- Archetype: Infrastructure Integrators (Teal) + Vertical Specialists (Pink)
+- Description: Budget accommodation network, 4,200+ hostels, 180 countries
+- Market Size: €500M market
+- Outbound Connections: P040, P055, P068
+- Inbound Connections: P040
+- Business Model: Membership fees, hostel commissions, partnerships
+
+---
+
+DISTRIBUTION & INTERMEDIARY PLATFORMS (25 players)
+---
+
+P006: SiteMinder
+- Segment: Channel Manager
+- Archetype: Market Aggregators (Light Green) + Facilitators & Enablers (Blue)
+- Description: Channel manager, 41.6K hotels, 100M+ bookings/year
+- Market Size: €250M revenue
+- Outbound Connections: P005, P044, P050, P070
+- Inbound Connections: P005, P040, P041, P044
+- Business Model: Per-booking fees, subscription plans, premium features
+
+P013: Hotelbeds
+- Segment: Bed Bank
+- Archetype: Market Aggregators (Light Green) + Vertical Specialists (Pink)
+- Description: Bed bank/wholesale aggregator, 180K+ hotels, 185 countries, 60K+ partners
+- Market Size: €2.1B revenue
+- Outbound Connections: P003, P005, P044, P050, P075, P076
+- Inbound Connections: P003, P044, P050, P075
+- Business Model: Wholesale pricing, tour operator margins, DMC partnerships
+
+P014: TUI Group
+- Segment: Tour Operator
+- Archetype: Infrastructure Integrators (Teal) + Market Aggregators (Light Green) + Vertical Specialists (Pink)
+- Description: Global tour operator, 66K employees, 11M clients/year, 1,800 agencies
+- Market Size: €21.5B revenue
+- Outbound Connections: P003, P001, P002, P013, P044, P050, P075
+- Inbound Connections: P003, P001, P013, P044, P050
+- Business Model: Package tours, dynamic packaging, vertical integration (airlines, hotels)
+
+P041: Travel Agencies
+- Segment: Retail / Intermediary
+- Archetype: Vertical Specialists (Pink) + Market Aggregators (Light Green)
+- Description: Traditional retail agencies, consulting, personalized service
+- Market Size: €130B market size globally
+- Outbound Connections: P003, P007, P008, P013, P014, P040, P068
+- Inbound Connections: P003, P007, P013, P014, P040
+- Business Model: Commission (5-15%), service fees, package discounts, corporate contracts
+
+P046: Kayak Metasearch
+- Segment: Metasearch
+- Archetype: Facilitators & Enablers (Blue) + Market Aggregators (Light Green)
+- Description: Multi-product metasearch, flights/hotels/cars, Booking-owned
+- Market Size: €500M revenue (estimated)
+- Outbound Connections: P001, P002, P007, P008, P012
+- Inbound Connections: P001, P002, P007, P008
+- Business Model: CPC (cost-per-click) advertising, referral commissions
+
+P011: Google Hotel Ads
+- Segment: Metasearch
+- Archetype: Facilitators & Enablers (Blue) + Community Builders (Purple)
+- Description: Metasearch engine, 100M+ daily searches, integrated Google Search/Maps
+- Market Size: Integration revenue
+- Outbound Connections: P005, P007, P008, P009, P050
+- Inbound Connections: P005, P007, P008, P009
+- Business Model: CPC advertising, click-through commissions, data monetization
+
+P012: Trivago
+- Segment: Metasearch
+- Archetype: Facilitators & Enablers (Blue) + Market Aggregators (Light Green)
+- Description: Metasearch/price comparison, 100+ OTA monitoring, Expedia-owned
+- Market Size: €150M market cap
+- Outbound Connections: P007, P008, P050
+- Inbound Connections: P007, P008, P050
+- Business Model: CPC advertising, referral partnerships, premium listings
+
+P015: Viator
+- Segment: Experiences / Activities
+- Archetype: Experience Designers (Orange) + Infrastructure Integrators (Teal)
+- Description: Experience marketplace, 50K+ activities, 500+ cities, TripAdvisor-owned
+- Market Size: €840M revenue (Q4 2024)
+- Outbound Connections: P040, P041, P051, P068
+- Inbound Connections: P040, P041, P068
+- Business Model: 45-55% commission, booking fees, premium placements
+
+P016: GetYourGuide
+- Segment: Experiences / Activities
+- Archetype: Experience Designers (Orange) + Infrastructure Integrators (Teal)
+- Description: Activity booking platform, 100K+ experiences, 200+ destinations
+- Market Size: €500M revenue (estimated)
+- Outbound Connections: P040, P041, P051, P068
+- Inbound Connections: P040, P041
+- Business Model: Commission-based (15-25%), affiliate partnerships, featured listings
+
+P051: Tour Operators / DMCs
+- Segment: Ground Operators
+- Archetype: Market Aggregators (Light Green) + Vertical Specialists (Pink) + Experience Designers (Orange)
+- Description: Ground operations, FIT customization, destination specialists
+- Market Size: €150B market size
+- Outbound Connections: P013, P014, P043, P044, P047, P068
+- Inbound Connections: P013, P014, P043, P044
+- Business Model: Wholesale pricing, FIT markup (20-30%), group tour contracts
+
+P081: Omio (Travel Search)
+- Segment: Metasearch
+- Archetype: Facilitators & Enablers (Blue) + Market Aggregators (Light Green)
+- Description: Multi-modal travel search, buses/trains/flights, alternative metasearch
+- Market Size: €200M valuation (estimated)
+- Outbound Connections: P001, P002, P004, P005, P046
+- Inbound Connections: P001, P002, P004, P005
+- Business Model: CPC advertising, affiliate commissions, partnership revenue
+
+P082: OpenTable Dining
+- Segment: Restaurant Bookings
+- Archetype: Experience Designers (Orange) + Infrastructure Integrators (Teal)
+- Description: Restaurant booking platform, 60K+ restaurants, reservation focus
+- Market Size: €600M revenue (estimated)
+- Outbound Connections: P040, P043, P051
+- Inbound Connections: P040, P043
+- Business Model: Commission per booking (3-5%), consumer fees, restaurant subscriptions
+
+P047: Klook Experiences
+- Segment: Experiences / Activities
+- Archetype: Experience Designers (Orange) + Infrastructure Integrators (Teal)
+- Description: Asia-Pacific experience platform, 100K+ activities, tours
+- Market Size: €1B valuation
+- Outbound Connections: P015, P016, P040, P051
+- Inbound Connections: P040, P051
+- Business Model: Commission-based (20-30%), exclusive partnerships, corporate programs
+
+P071: Luxury Travel Specialists
+- Segment: Travel Agency (Luxury)
+- Archetype: Vertical Specialists (Pink) + Experience Designers (Orange)
+- Description: High-end agencies, bespoke travel, Relais & Châteaux partnerships
+- Market Size: €500B luxury travel market
+- Outbound Connections: P005, P036, P037, P038, P040
+- Inbound Connections: P005, P036, P037, P040
+- Business Model: Commissions (10-20%), service fees (€200-500), exclusive partnerships
+
+---
+
+FINANCIAL SERVICES & PAYMENTS (20 players)
+---
+
+P022: Klarna
+- Segment: Payments - BNPL
+- Archetype: Facilitators & Enablers (Blue)
+- Description: BNPL provider, 50% YoY growth in travel, Gen Z focus
+- Market Size: €46B valuation
+- Outbound Connections: P007, P008, P009, P014, P040, P068
+- Inbound Connections: P007, P008, P009, P040
+- Business Model: Merchant fees (3-8%), interest (0% promotional), late fees, securitization
+
+P023: Allianz Travel Insurance
+- Segment: Insurance
+- Archetype: Facilitators & Enablers (Blue) + Vertical Specialists (Pink)
+- Description: Travel insurance provider, global coverage, risk mitigation
+- Market Size: €500M revenue (estimated)
+- Outbound Connections: P007, P008, P014, P040, P068
+- Inbound Connections: P007, P008, P040
+- Business Model: Premiums (€15-100 per policy), commission from partners, bundled packages
+
+P024: PayPal
+- Segment: Payments
+- Archetype: Facilitators & Enablers (Blue)
+- Description: Payment processor, 55% of European travel transactions
+- Market Size: €38B market cap
+- Outbound Connections: P007, P008, P009, P010, P014, P015, P016, P040, P068
+- Inbound Connections: P007, P008, P009, P010, P014, P040
+- Business Model: Transaction fees (1.99%+), cross-border markups, buyer protection fees
+
+P049: Affirm (BNPL)
+- Segment: Payments - BNPL
+- Archetype: Facilitators & Enablers (Blue)
+- Description: Buy-Now-Pay-Later fintech, travel-specific offerings
+- Market Size: €3B valuation
+- Outbound Connections: P007, P008, P014, P040
+- Inbound Connections: P007, P008, P040
+- Business Model: Merchant discount rate (2-6%), late fees, financing charges
+
+P054: Stripe Payments
+- Segment: Payments
+- Archetype: Facilitators & Enablers (Blue)
+- Description: Payment processor, travel payments, global coverage
+- Market Size: €95B valuation
+- Outbound Connections: P007, P008, P009, P015, P016, P024, P040
+- Inbound Connections: P007, P008, P009, P015, P016, P040
+- Business Model: Transaction fees (2.2% + $0.30), payment methods fees, premium features
+
+P074: Apple Pay / Digital Wallets
+- Segment: Payments
+- Archetype: Facilitators & Enablers (Blue)
+- Description: Mobile payment, contactless transactions, payment convenience
+- Market Size: €8T mobile payment market
+- Outbound Connections: P001, P002, P007, P008, P010, P040
+- Inbound Connections: P001, P002, P007, P008, P010, P040
+- Business Model: Interchange fees (variable by card), brand partnerships, data integration
+
+P088: Yolo Insurance
+- Segment: Insurance - Insurtech
+- Archetype: Facilitators & Enablers (Blue) + Vertical Specialists (Pink)
+- Description: Italian digital insurtech, fully mobile micro-policies, real-time activation
+- Market Size: Expanding European operations
+- Outbound Connections: P007, P008, P009, P024, P054
+- Inbound Connections: P007, P008, P024
+- Business Model: API-embedded partnerships, micro-policy premiums (€2-15), B2B2C revenue
+
+P089: Allianz Partners (Allyz Ecosystem)
+- Segment: Insurance
+- Archetype: Facilitators & Enablers (Blue) + Vertical Specialists (Pink)
+- Description: Traditional insurer + digital ecosystem combining protection + digital services
+- Outbound Connections: P007, P008, P023, P024
+- Inbound Connections: P007, P008, P024
+- Business Model: Premiums, commission from embedded channels, data services
+
+P090: Klarna BNPL
+- Segment: Payments - BNPL
+- Archetype: Facilitators & Enablers (Blue)
+- Description: BNPL leader, 50% YoY growth in travel, Gen Z adoption
+- Market Size: €46B valuation
+- Outbound Connections: P007, P008, P009, P014, P040
+- Business Model: Merchant fees, interest on late payments, securitization of receivables
+
+P091: Scalapay BNPL
+- Segment: Payments - BNPL
+- Archetype: Facilitators & Enablers (Blue)
+- Description: European BNPL, integrated travel booking platforms
+- Outbound Connections: P007, P008, P040
+- Business Model: Merchant fees (1-3%), installment interest, premium subscriptions
+
+P092: N26 Digital Bank
+- Segment: Payments / Banking
+- Archetype: Facilitators & Enablers (Blue)
+- Description: Digital bank bundling health + delay/cancellation insurance with services
+- Outbound Connections: P089, P090, P040
+- Business Model: Subscription (€10-20/mo), interchange fees, insurance partnerships
+
+P093: Revolut Fintech
+- Segment: Payments / Banking
+- Archetype: Facilitators & Enablers (Blue)
+- Description: Multi-functional spending app with FX optimization, cashback, insurance
+- Outbound Connections: P040
+- Business Model: Subscription tiers (€7.99-13.99/mo), FX markups (0.5%), premium features
+
+P094: Satispay Payment
+- Segment: Payments
+- Archetype: Facilitators & Enablers (Blue)
+- Description: European fintech payment platform with travel integration
+- Outbound Connections: P040
+- Business Model: Interchange fees, transaction fees, subscription services
+
+P103: Generali Insurance
+- Segment: Insurance
+- Archetype: Vertical Specialists (Pink) + Facilitators & Enablers (Blue)
+- Description: Traditional insurance provider with digital transformation
+- Outbound Connections: P007, P008, P023, P024
+- Business Model: Premium-based (€20-80), claims management, digital services
+
+P104: World Nomads Insurance
+- Segment: Insurance (Adventure/Niche)
+- Archetype: Vertical Specialists (Pink)
+- Description: Adventure travel specialist insurance
+- Outbound Connections: P040, P070
+- Business Model: Adventure-focused premiums (€50-200), niche market markup
+
+P105: Visa Card Network
+- Segment: Payments
+- Archetype: Facilitators & Enablers (Blue)
+- Description: Global payment card network with travel-specific products
+- Outbound Connections: P001, P002, P005, P007, P008, P040
+- Business Model: Interchange fees (0.5-3%), issuer/acquirer fees, travel services
+
+P106: Mastercard Card Network
+- Segment: Payments
+- Archetype: Facilitators & Enablers (Blue)
+- Description: Global card network with BNPL travel programs
+- Outbound Connections: P001, P002, P005, P007, P008, P040, P090
+- Business Model: Interchange fees, BNPL partnerships, travel insurance bundling
+
+P107: American Express
+- Segment: Payments & Travel Management
+- Archetype: Facilitators & Enablers (Blue)
+- Description: Premium travel card issuer + travel management company
+- Outbound Connections: P005, P041, P050, P052
+- Business Model: Annual fees (€100-500), interchange fees, travel services (3-8% premium)
+
+P108-P111: Banks (Intesa Sanpaolo, UniCredit, BNL, Widiba)
+- Segment: Banking / Payments
+- Archetype: Facilitators & Enablers (Blue)
+- Description: Italian/European banks with travel lending products
+- Business Model: Pay-in-X programs (3-24 months), interest income, affiliate commissions
+
+---
+
+DIGITAL PLATFORMS & MEDIA (30 players)
+---
+
+P025: Instagram Travel Creators
+- Segment: Social Media
+- Archetype: Community Builders (Purple)
+- Description: Travel influencers, content creators, destination inspiration
+- Market Size: €20B+ influencer economy
+- Outbound Connections: P040, P041, P068, P069
+- Inbound Connections: P040, P041
+- Business Model: Sponsored posts (€500-5K), brand partnerships, affiliate links
+
+P026: TripAdvisor
+- Segment: Reviews & Community
+- Archetype: Community Builders (Purple) + Facilitators & Enablers (Blue)
+- Description: Review platform + metasearch, 100M+ reviews, 500M+ monthly users
+- Market Size: €2B market cap
+- Outbound Connections: P007, P008, P015, P040, P068
+- Inbound Connections: P007, P008, P040
+- Business Model: Referral commissions, sponsored listings, premium placements
+
+P027: Reddit Travel Communities
+- Segment: Community Platform
+- Archetype: Community Builders (Purple)
+- Description: Peer-to-peer advice, r/travel 5M+ subscribers, authentic recommendations
+- Market Size: Community-driven
+- Outbound Connections: P040, P041, P068
+- Inbound Connections: P040, P041
+- Business Model: Community engagement, partner integrations, no direct revenue
+
+P063: Google Reviews & Maps
+- Segment: Review & Discovery
+- Archetype: Facilitators & Enablers (Blue) + Community Builders (Purple)
+- Description: Review aggregation, location discovery, 200M+ reviews
+- Market Size: Integrated in Google
+- Outbound Connections: P040, P043, P044, P068
+- Inbound Connections: P040, P043, P044
+- Business Model: Business location services, advertising, maps API
+
+P064: Facebook Travel Groups
+- Segment: Community Platform
+- Archetype: Community Builders (Purple)
+- Description: Peer communities, destination groups, 100M+ members
+- Market Size: Community-driven
+- Outbound Connections: P040, P041
+- Inbound Connections: P040, P041
+- Business Model: Organic community, sponsored groups, advertising
+
+P068: Travel Bloggers & Content Creators
+- Segment: Digital Media
+- Archetype: Community Builders (Purple)
+- Description: YouTube, blogs, podcasts, destination storytellers
+- Market Size: €20B+ influencer economy
+- Outbound Connections: P040, P041, P043, P044, P051
+- Inbound Connections: P040, P041, P043
+- Business Model: YouTube monetization, sponsorships, affiliate commissions, Patreon
+
+P069: TikTok Travel Creators
+- Segment: Social Media
+- Archetype: Community Builders (Purple)
+- Description: Short-form video, Gen Z focus, viral destinations
+- Market Size: €20B+ influencer economy
+- Outbound Connections: P040, P043, P044
+- Inbound Connections: P040, P043
+- Business Model: Creator Fund, brand partnerships (€500-10K), affiliate links
+
+---
+
+TECHNOLOGY INFRASTRUCTURE (15 players)
+---
+
+P018: Oracle OPERA PMS
+- Segment: Technology - PMS
+- Archetype: Vertical Specialists (Pink)
+- Description: Property Management System, enterprise standard, comprehensive operations
+- Market Size: €1.2B revenue (estimated)
+- Outbound Connections: P005, P044, P050, P051
+- Inbound Connections: P005, P044, P050
+- Business Model: Subscription licenses (€500-5K/month), implementation services, support
+
+P019: Mews PMS
+- Segment: Technology - PMS
+- Archetype: Vertical Specialists (Pink) + Facilitators & Enablers (Blue)
+- Description: Cloud-native PMS, 150+ countries, automation-focused, SME friendly
+- Market Size: €300M valuation
+- Outbound Connections: P005, P044, P050, P051
+- Inbound Connections: P005, P044, P050
+- Business Model: SaaS subscription (€300-2K/month), per-room fees, premium integrations
+
+P017: Revinate
+- Segment: Technology - CRM/CDP
+- Archetype: Vertical Specialists (Pink) + Facilitators & Enablers (Blue)
+- Description: Hotel CRM & CDP, 12.5K hotels, AI-powered, 17.2B revenue generated
+- Market Size: €120M revenue
+- Outbound Connections: P005, P044, P050, P068
+- Inbound Connections: P005, P044, P050
+- Business Model: Per-property licensing, tiered pricing, premium analytics
+
+P020: AWS
+- Segment: Technology - Cloud
+- Archetype: Facilitators & Enablers (Blue)
+- Description: Cloud infrastructure provider, market leader, 200+ services
+- Market Size: €100B+ revenue
+- Outbound Connections: P003, P005, P017, P018, P019, P044, P050, P051
+- Inbound Connections: P003, P005, P017, P044, P050
+- Business Model: Pay-as-you-go compute/storage, reserved instances, support plans
+
+P031: Cendyn CRM
+- Segment: Technology - CRM
+- Archetype: Vertical Specialists (Pink)
+- Description: Hotel CRM, 30K clients, 143 countries, end-to-end marketing
+- Market Size: €100M revenue (estimated)
+- Outbound Connections: P005, P044, P050, P068
+- Inbound Connections: P005, P044, P050
+- Business Model: Per-property subscriptions, tiered pricing, professional services
+
+P032: Sabre GDS
+- Segment: Technology - GDS
+- Archetype: Infrastructure Integrators (Teal) + Market Aggregators (Light Green)
+- Description: Global Distribution System, 400 airlines, 200K+ hotels
+- Market Size: €3.5B revenue
+- Outbound Connections: P001, P002, P005, P040, P041, P044
+- Inbound Connections: P001, P002, P005, P040, P041
+- Business Model: Booking commissions, subscription fees, data services
+
+P033: Travelport GDS
+- Segment: Technology - GDS
+- Archetype: Infrastructure Integrators (Teal) + Market Aggregators (Light Green)
+- Description: Global Distribution System, 650K+ hotels, 400+ airlines
+- Market Size: €2.5B revenue
+- Outbound Connections: P001, P002, P005, P040, P041, P044
+- Inbound Connections: P001, P002, P005, P040, P041
+- Business Model: Booking commissions, transaction fees, technology licensing
+
+P034: STR Analytics
+- Segment: Technology - Analytics
+- Archetype: Vertical Specialists (Pink)
+- Description: Hotel benchmarking & analytics, global competitor intelligence
+- Market Size: €400M revenue (estimated)
+- Outbound Connections: P005, P044, P050
+- Inbound Connections: P005, P044, P050
+- Business Model: Subscription benchmarking data, tiered access (€1K-50K/year), consulting
+
+P035: Duetto Revenue Management
+- Segment: Technology - Revenue Management
+- Archetype: Vertical Specialists (Pink) + Facilitators & Enablers (Blue)
+- Description: AI-powered revenue management, dynamic pricing optimization
+- Market Size: €150M valuation (estimated)
+- Outbound Connections: P005, P044, P050
+- Inbound Connections: P005, P044, P050
+- Business Model: Per-property licensing (€500-3K/month), revenue share (0.5-1% markup)
+
+P039: Cloudbeds PMS
+- Segment: Technology - PMS
+- Archetype: Vertical Specialists (Pink) + Facilitators & Enablers (Blue)
+- Description: Cloud PMS for indie hotels, 150+ countries, rapid growth
+- Market Size: €500M valuation (estimated)
+- Outbound Connections: P005, P044, P050, P051
+- Inbound Connections: P005, P044, P050
+- Business Model: Subscription per-property (€29-200/month), booking fees (1-2%), premium features
+
+P048: Sojern
+- Segment: Technology - Marketing
+- Archetype: Facilitators & Enablers (Blue) + Community Builders (Purple)
+- Description: AI advertising & marketing for travel, intent-based targeting
+- Market Size: €500M valuation (estimated)
+- Outbound Connections: P005, P044, P050, P068
+- Inbound Connections: P005, P044, P050
+- Business Model: CPC advertising (€0.50-5), performance-based fees, data analytics
+
+P053: RateGain Channel Manager
+- Segment: Technology - Channel Management
+- Archetype: Market Aggregators (Light Green) + Facilitators & Enablers (Blue)
+- Description: Dynamic pricing & distribution, 3.2K customers
+- Market Size: €200M revenue (estimated)
+- Outbound Connections: P005, P044, P050
+- Inbound Connections: P005, P044, P050
+- Business Model: Per-hotel licensing, rate management fees, integration services
+
+P021: Kalibri Labs
+- Segment: Technology - Revenue Analytics
+- Archetype: Vertical Specialists (Pink)
+- Description: Revenue management analytics, profit-focused metrics, cost analysis
+- Market Size: €50M revenue (estimated)
+- Outbound Connections: P005, P044, P050
+- Inbound Connections: P005, P044, P050
+- Business Model: Subscription analytics (€1K-5K/month), benchmarking data
+
+---
+
+EXPERIENCES & ATTRACTIONS (10 players)
+---
+
+P043: Local Restaurants & Bars
+- Segment: Food & Beverage
+- Archetype: Experience Designers (Orange)
+- Description: Independent food establishments, Michelin-starred, local authentic
+- Market Size: €3.5T food service globally
+- Outbound Connections: P040, P041, P051
+- Inbound Connections: P040, P041
+- Business Model: Direct consumer transactions, delivery partnerships, reservations platforms
+
+P058: Theme Parks & Attractions
+- Segment: Attractions
+- Archetype: Experience Designers (Orange)
+- Description: Disney, Universal, Legoland, local attractions
+- Market Size: €50B theme park industry
+- Outbound Connections: P015, P016, P040, P051
+- Inbound Connections: P015, P016, P040, P051
+- Business Model: Admission tickets, season passes, merchandise, food/beverage
+
+P083: Museum Networks
+- Segment: Cultural Attractions
+- Archetype: Experience Designers (Orange) + Regulators & Standards Setters (Lime)
+- Description: Public/private museums, cultural attractions, UNESCO partners
+- Market Size: €100B museum industry
+- Outbound Connections: P040, P042, P051, P068
+- Inbound Connections: P040, P042
+- Business Model: Admission fees, memberships, donations, gift shop revenue
+
+P084: National Parks
+- Segment: Nature Attractions
+- Archetype: Experience Designers (Orange) + Regulators & Standards Setters (Lime)
+- Description: Protected areas, eco-tourism destinations, government managed
+- Market Size: €600B eco-tourism market
+- Outbound Connections: P040, P042, P051, P068
+- Inbound Connections: P040, P042
+- Business Model: Entry fees, permits, guided tour revenue, conservation funding
+
+---
+
+COMMUNITIES & TRAVELERS (10 players)
+---
+
+P040: Travelers (All)
+- Segment: Demand Generators
+- Archetype: Community Builders (Purple)
+- Description: All traveler types, Gen Z to luxury, sole demand generators
+- Market Size: €1.9T global travel spend
+- Outbound Connections: [All 100+ supply-side players]
+- Inbound Connections: [All 100+ supply-side players]
+- Business Model: Direct spending on travel services and experiences
+
+P050: Corporate Travel Departments
+- Segment: Corporate / B2B
+- Archetype: Vertical Specialists (Pink) + Infrastructure Integrators (Teal)
+- Description: Enterprise HR/Procurement, TMC users, policy enforcement
+- Market Size: €380B business travel spend
+- Outbound Connections: P003, P006, P032, P033, P041, P068, P069
+- Inbound Connections: P003, P006, P032, P033
+- Business Model: Contracts with airlines/hotels, TMC agreements, compliance tools
+
+P052: MICE Organizers
+- Segment: Corporate / B2B
+- Archetype: Vertical Specialists (Pink) + Experience Designers (Orange)
+- Description: Convention bureaus, PCO agencies, event management
+- Market Size: €1.3T MICE industry
+- Outbound Connections: P050, P043, P068
+- Inbound Connections: P050
+- Business Model: Event commissions (10-15%), DMC partnerships, speaker fees
+
+P070: Digital Nomad Communities
+- Segment: Community
+- Archetype: Community Builders (Purple)
+- Description: Remote workers, co-living, Workation ecosystem
+- Market Size: €35B digital nomad economy
+- Outbound Connections: P009, P040, P043, P044
+- Inbound Connections: P009, P040
+- Business Model: Community membership, co-living fees, partnership revenue
+
+P078: Study Trip Organizers
+- Segment: Group Travel
+- Archetype: Vertical Specialists (Pink) + Experience Designers (Orange)
+- Description: Schools, universities, educational groups, learning travel
+- Market Size: €200B school group travel
+- Outbound Connections: P041, P051, P052, P068
+- Inbound Connections: P041, P051
+- Business Model: Group discounts (15-25%), educational partnerships, commission models
+
+P085: Gen Z/Millennial Travelers
+- Segment: Traveler Segment
+- Archetype: Community Builders (Purple)
+- Description: Young digital natives, 75% Airbnb users, sustainability-focused
+- Market Size: €500B+ spending
+- Outbound Connections: P009, P025, P026, P040, P064, P069
+- Inbound Connections: P009, P025, P026, P040
+- Business Model: Direct consumer spending, data value, community engagement
+
+P086: Business Travelers
+- Segment: Traveler Segment
+- Archetype: Community Builders (Purple)
+- Description: Corporate workers, frequent flyers, loyalty program members
+- Market Size: €380B business travel spend
+- Outbound Connections: P001, P002, P005, P036, P038, P050
+- Inbound Connections: P001, P002, P005, P050
+- Business Model: Premium pricing, loyalty programs, corporate contracts
+
+P087: Luxury Travelers
+- Segment: Traveler Segment
+- Archetype: Community Builders (Purple)
+- Description: High-net-worth individuals, exclusive experiences, concierge services
+- Market Size: €500B+ luxury travel market
+- Outbound Connections: P005, P036, P037, P038, P071
+- Inbound Connections: P005, P036, P037
+- Business Model: Premium service charges, exclusive access fees, high-margin bookings
+
+---
+
+DESTINATIONS & INSTITUTIONS (8 players)
+---
+
+P028: UNWTO (UN Tourism)
+- Segment: Regulation / Standards
+- Archetype: Regulators & Standards Setters (Lime)
+- Description: United Nations tourism body, standard-setter, 193 member states
+- Market Size: Quasi-public
+- Outbound Connections: P024, P025, P026, P029, P030
+- Inbound Connections: P029, P030
+- Business Model: Member contributions, technical assistance, research publications
+
+P029: EarthCheck Certification
+- Segment: Sustainability Certification
+- Archetype: Regulators & Standards Setters (Lime) + Vertical Specialists (Pink)
+- Description: Sustainability certification, 70+ countries, science-based standards
+- Market Size: €50M revenue (estimated)
+- Outbound Connections: P005, P044, P050
+- Inbound Connections: P005, P028, P044
+- Business Model: Certification fees (€500-5K annually), audit services, consulting
+
+P030: Hotel Associations (AHLA, HOTREC)
+- Segment: Industry Association
+- Archetype: Regulators & Standards Setters (Lime)
+- Description: Industry advocacy, lobbying, collective bargaining
+- Market Size: Membership-based
+- Outbound Connections: P005, P044, P050
+- Inbound Connections: P005, P028, P044
+- Business Model: Member dues (1-3% of revenue), training programs, event sponsorships
+
+P042: DMOs (Destination Management Orgs)
+- Segment: Destination Management
+- Archetype: Regulators & Standards Setters (Lime) + Vertical Specialists (Pink)
+- Description: Tourism boards, destination promotion, UNWTO accredited
+- Market Size: Quasi-public funding
+- Outbound Connections: P028, P029, P044, P050
+- Inbound Connections: P028, P029, P044
+- Business Model: Public funding, co-marketing revenue, tourism development fees
+
+P065: Local Residents
+- Segment: Community
+- Archetype: Community Builders (Purple)
+- Description: Community stakeholders, SME owners, cultural gatekeepers
+- Market Size: Community assets
+- Outbound Connections: P040, P043, P044
+- Inbound Connections: P040, P043, P044
+- Business Model: Local employment, business partnerships, cultural exchange
+
+P072: UNESCO World Heritage Sites
+- Segment: Cultural Heritage
+- Archetype: Regulators & Standards Setters (Lime) + Experience Designers (Orange)
+- Description: Cultural heritage, 1,200+ sites, 180+ countries
+- Market Size: Global cultural assets
+- Outbound Connections: P028, P040, P042, P051
+- Inbound Connections: P028, P040, P042
+- Business Model: Tourism revenue sharing, conservation funding, admission fees
+
+P067: Ministry of Tourism / Government
+- Segment: Government / Regulation
+- Archetype: Regulators & Standards Setters (Lime)
+- Description: National/regional tourism authorities, policy makers
+- Market Size: Public sector
+- Outbound Connections: P028, P029, P030, P042
+- Inbound Connections: P028, P029, P030
+- Business Model: Policy enforcement, destination investment, regulatory compliance
+
+---
+
+DMO PLAYERS (4 players)
+---
+
+P095: ENIT (Italian National Tourist Board)
+- Segment: National DMO
+- Archetype: Regulators & Standards Setters (Lime) + Vertical Specialists (Pink)
+- Description: Italy tourism marketing, policy coordination, Italia.it portal
+- Functions: Marketing, regional coordination, training, research
+- Partnerships: Regional DMOs, travel trade, airlines, hotels, cultural institutions
+- Strengths: Food/wine brand, UNESCO sites, digital leadership
+- Challenges: Fragmented sector, governance complexity
+- Revenue: 50-70% public funding, 15-25% co-marketing, 5-10% intelligence, 5-15% commercial
+- Outbound Connections: P042, P067, P028
+
+P096: VisitBritain / VisitEngland
+- Segment: National DMO
+- Archetype: Regulators & Standards Setters (Lime) + Vertical Specialists (Pink)
+- Description: UK tourism organizations, international + domestic focus
+- Global Network: 33 offices in 32 countries
+- Campaigns: GREAT Britain (culture, heritage, food, sport)
+- Strengths: International reputation, global partnerships, coordinated marketing
+- Revenue Model: Same as ENIT above
+- Outbound Connections: P001, P002, P005, P028, P067
+
+P097: German National Tourist Board (GNTB)
+- Segment: National DMO
+- Archetype: Regulators & Standards Setters (Lime) + Vertical Specialists (Pink)
+- Description: Germany destination promotion, sustainability + immersive tech
+- Themes: Simply Feel Good, Embrace German Nature, Fairy Tale Routes
+- Technology: VR, AR, MR, AI chatbots, voice assistants
+- Positioning: Eco-friendly, forward-looking, culturally rich
+- Outbound Connections: P028, P067
+
+P098: Atout France
+- Segment: National DMO
+- Archetype: Regulators & Standards Setters (Lime) + Vertical Specialists (Pink)
+- Description: French national DMO - comprehensive tourism development
+- Model: Destination marketing + tourism development + quality management
+- Global Presence: 33 offices globally; 1,000+ partners
+- Integrated Approach: Combines destination promotion with tourism engineering
+- Emerging Focus: Data-driven orchestration, sustainable growth, multi-stakeholder co-creation
+- Outbound Connections: P028, P067, P042
+
+---
+
+TRAINING & TALENT (12 players)
+---
+
+P056: Hotel Schools (EHL, Les Roches)
+- Segment: Training / Education
+- Archetype: Vertical Specialists (Pink) + Regulators & Standards Setters (Lime)
+- Description: Industry-leading hospitality education, culinary, management programs
+- Market Size: €2B higher ed hospitality
+- Reputation: Global brands, extensive alumni networks
+- Connections: P005, P036, P037, P038, P056
+
+P057: Indeed / LinkedIn Recruitment
+- Segment: Talent Acquisition
+- Archetype: Facilitators & Enablers (Blue)
+- Description: HR recruiting platforms, hospitality jobs, seasonal staffing
+- Market Size: €13B recruitment market
+- Connections: P005, P036, P044, P050
+
+P099: WFTGA (Tour Guide Training)
+- Segment: Training / Certification
+- Archetype: Vertical Specialists (Pink)
+- Description: World Federation guide training and certification center
+- Connections: P078
+
+P100: EHL Hospitality Business School
+- Segment: Training / Education
+- Archetype: Vertical Specialists (Pink) + Regulators & Standards Setters (Lime)
+- Description: Prestige hotel management school, global alumni network
+- Connections: P005, P036, P037, P038, P056
+
+P101: Les Roches Hospitality School
+- Segment: Training / Education
+- Archetype: Vertical Specialists (Pink) + Regulators & Standards Setters (Lime)
+- Description: Luxury hospitality education specialization
+- Connections: P005, P071
+
+P102: CoolWorks Seasonal Platform
+- Segment: Seasonal Labor
+- Archetype: Facilitators & Enablers (Blue)
+- Description: Outdoor/adventure seasonal job marketplace
+- Connections: P056, P057
+
+---
+
+SUSTAINABILITY & ADVOCACY (5 players)
+---
+
+P066: Environmental NGOs
+- Segment: Advocacy / Sustainability
+- Archetype: Regulators & Standards Setters (Lime)
+- Description: Greenpeace, WWF, tourism sustainability advocates
+- Outbound Connections: P028, P029, P030
+- Inbound Connections: P028, P029
+
+P075: Tour Operator Associations
+- Segment: Industry Association
+- Archetype: Regulators & Standards Setters (Lime)
+- Description: Industry bodies, collective bargaining, standard setting
+- Outbound Connections: P013, P014, P028
+- Inbound Connections: P013, P014
+
+P076: Travel Agent Federations
+- Segment: Industry Association
+- Archetype: Regulators & Standards Setters (Lime) + Vertical Specialists (Pink)
+- Description: ATTA, IATA, collective lobbying, professional standards
+- Outbound Connections: P013, P041, P028
+- Inbound Connections: P013, P041
+
+P077: Green Key Certification
+- Segment: Sustainability Certification
+- Archetype: Regulators & Standards Setters (Lime) + Vertical Specialists (Pink)
+- Description: Eco-hotel certification, sustainability standards, 3K+ certified
+- Market Size: €50M market (estimated)
+- Outbound Connections: P005, P029, P044
+- Inbound Connections: P005, P029, P044
+
+P073: Travel Insurance Aggregators
+- Segment: Insurance / Comparison
+- Archetype: Facilitators & Enablers (Blue)
+- Description: Compare travel insurance, multiple providers, customer protection
+- Market Size: €50B insurance market
+- Outbound Connections: P007, P008, P023, P040
+- Inbound Connections: P007, P008, P040
+
+P080: Concur / SAP Travel
+- Segment: Corporate Travel / Expense Management
+- Archetype: Facilitators & Enablers (Blue)
+- Description: Corporate travel expense management, policy enforcement
+- Market Size: €500M market (estimated)
+- Outbound Connections: P050, P068
+- Inbound Connections: P050
+
+# NEW PLAYERS & FIXES
+
+P153: Trip.com Group
+- Segment: OTA / Infrastructure
+- Archetype: Infrastructure Integrators
+- Description: Leading global travel service provider comprising Trip.com, Ctrip, Skyscanner, and Qunar.
+- Market Size: €5.9B revenue (2023)
+- Business Model: Accommodation reservation, transportation ticketing, packaged tours, corporate travel management.
+- Outbound Connections: P007, P001, P005, P015
+
+P154: Virgin Galactic
+- Segment: Space Tourism
+- Archetype: Experience Designers
+- Description: Aerospace and space travel company offering suborbital spaceflights to space tourists.
+- Market Size: Emerging Market
+- Business Model: Ticket sales for spaceflights (50k/seat), research payloads.
+- Outbound Connections: P040, P025
+
+P155: Hopper
+- Segment: Travel Fintech
+- Archetype: Facilitators & Enablers
+- Description: Mobile-first travel marketplace focused on price prediction and financial products.
+- Market Size: B Valuation
+- Business Model: Price freeze, cancel for any reason, flight disruption guarantee, commission.
+- Outbound Connections: P007, P001, P153
+
+P156: BlaBlaCar
+- Segment: Shared Mobility
+- Archetype: Community Builders
+- Description: World's leading community-based travel network enabling over 90 million members to share a ride.
+- Market Size: €2B Valuation
+- Business Model: Service fees from passengers, bus marketplace.
+- Outbound Connections: P040, P114, P010
+
+P157: Revolut
+- Segment: Banking / Travel
+- Archetype: Facilitators & Enablers
+- Description: Global financial superapp offering currency exchange, travel insurance, and 'Stays' booking.
+- Market Size: €1.8B Revenue
+- Business Model: Subscription fees, interchange fees, commission on bookings.
+- Outbound Connections: P007, P001, P010, P108
+
+P158: Priority Pass (Collinson)
+- Segment: Airport Services
+- Archetype: Vertical Specialists
+- Description: Market-leading airport lounge access program.
+- Market Size: N/A
+- Business Model: Membership fees, bank partnerships (B2B2C).
+- Outbound Connections: P001, P157, P108, P005
+
+P108: Intesa Sanpaolo (Bank)
+- Segment: Banking / Payments
+- Archetype: Facilitators & Enablers
+- Description: Major Italian bank with travel lending products.
+- Outbound Connections: P007, P001, P157
+
+P109: UniCredit (Bank)
+- Segment: Banking / Payments
+- Archetype: Facilitators & Enablers
+- Description: Major European bank.
+- Outbound Connections: P007, P001, P157
+
+P110: BNL (Bank)
+- Segment: Banking / Payments
+- Archetype: Facilitators & Enablers
+- Description: Major Italian bank.
+- Outbound Connections: P007, P001, P157
+
+P111: Widiba (Bank)
+- Segment: Banking / Payments
+- Archetype: Facilitators & Enablers
+- Description: Digital bank.
+- Outbound Connections: P007, P001, P157
+
+P114: RATP (Paris)
+- Segment: Local Mobility
+- Archetype: Infrastructure Integrators
+- Description: French public transport operator.
+- Outbound Connections: P010, P156, P012
+
+P040: Travelers (All)
+- Segment: Demand Generators
+- Archetype: Community Builders
+- Description: All traveler types.
+- Outbound Connections: P001, P005, P007, P015, P010, P153, P154, P156
+
+P159: Trenitalia
+- Segment: Rail Transport
+- Archetype: Infrastructure Integrators
+- Description: Primary train operator in Italy, owned by Ferrovie dello Stato Italiane.
+- Market Size: €6B Revenue
+- Business Model: Ticket sales, regional subsidies, freight.
+- Outbound Connections: P114, P040, P153, P108
+
+P160: Italo (NTV)
+- Segment: Rail Transport
+- Archetype: Vertical Specialists
+- Description: Private high-speed rail operator in Italy.
+- Market Size: €1B Revenue
+- Business Model: Ticket sales, ancillary services.
+- Outbound Connections: P040, P153, P108
+
+P161: ITA Airways
+- Segment: Long-Distance Transport
+- Archetype: Infrastructure Integrators
+- Description: Italy's flag carrier airline.
+- Market Size: €2.4B Revenue
+- Business Model: Passenger and cargo air transport.
+- Outbound Connections: P001, P040, P153, P005

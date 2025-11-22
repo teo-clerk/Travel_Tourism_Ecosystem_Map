@@ -1,0 +1,5649 @@
+{
+  "nodes": [
+    {
+      "id": "P001",
+      "name": "Ryanair",
+      "segment": "Long-Distance Transport",
+      "archetype": [
+        "Infrastructure Integrators"
+      ],
+      "color": "#1F8C7D",
+      "description": "European low-cost airline, 500+ routes, 40M+ annual passengers",
+      "market_size": "\u20ac7.2B revenue",
+      "business_model": "Direct fares, ancillary revenue (baggage, seats, food), commission through GDS",
+      "outbound": [
+        "P002",
+        "P003",
+        "P004",
+        "P040",
+        "P068"
+      ],
+      "inbound": [
+        "P002",
+        "P003",
+        "P004",
+        "P059",
+        "P116",
+        "P014",
+        "P046",
+        "P081",
+        "P074",
+        "P105",
+        "P106",
+        "P108",
+        "P109",
+        "P110",
+        "P111",
+        "P032",
+        "P033",
+        "P040",
+        "P086",
+        "P096",
+        "P153",
+        "P155",
+        "P157",
+        "P158",
+        "P161"
+      ]
+    },
+    {
+      "id": "P002",
+      "name": "Lufthansa",
+      "segment": "Long-Distance Transport",
+      "archetype": [
+        "Infrastructure Integrators"
+      ],
+      "color": "#1F8C7D",
+      "description": "Full-service global airline, 290+ destinations, 36M+ passengers",
+      "market_size": "\u20ac35.8B revenue",
+      "business_model": "Premium positioning, business travel focus, loyalty programs",
+      "outbound": [
+        "P001",
+        "P003",
+        "P005",
+        "P040",
+        "P068"
+      ],
+      "inbound": [
+        "P001",
+        "P003",
+        "P059",
+        "P014",
+        "P046",
+        "P081",
+        "P074",
+        "P105",
+        "P106",
+        "P032",
+        "P033",
+        "P086",
+        "P096"
+      ]
+    },
+    {
+      "id": "P003",
+      "name": "Amadeus GDS",
+      "segment": "Technology Infrastructure",
+      "archetype": [
+        "Infrastructure Integrators",
+        "Market Aggregators"
+      ],
+      "color": "#1F8C7D",
+      "description": "Global Distribution System, 435 airlines, 87K+ hotels, 8M+ travel agencies",
+      "market_size": "\u20ac6.5B revenue",
+      "business_model": "Commission-based from airlines/hotels, subscription from travel agencies, data monetization",
+      "outbound": [
+        "P001",
+        "P002",
+        "P005",
+        "P040",
+        "P041",
+        "P044",
+        "P050"
+      ],
+      "inbound": [
+        "P001",
+        "P002",
+        "P005",
+        "P036",
+        "P037",
+        "P038",
+        "P007",
+        "P008",
+        "P044",
+        "P013",
+        "P014",
+        "P041",
+        "P020",
+        "P050"
+      ]
+    },
+    {
+      "id": "P004",
+      "name": "FlixBus",
+      "segment": "Long-Distance Transport",
+      "archetype": [
+        "Infrastructure Integrators"
+      ],
+      "color": "#1F8C7D",
+      "description": "Budget intercity bus operator, 2.5K+ cities, 95M passengers/year",
+      "market_size": "\u20ac600M revenue",
+      "business_model": "Direct bookings, ancillary services, partnerships with accommodation",
+      "outbound": [
+        "P001",
+        "P040",
+        "P068"
+      ],
+      "inbound": [
+        "P001",
+        "P081"
+      ]
+    },
+    {
+      "id": "P010",
+      "name": "Uber",
+      "segment": "Local Mobility",
+      "archetype": [
+        "Infrastructure Integrators"
+      ],
+      "color": "#1F8C7D",
+      "description": "Ride-hailing platform, 74.9B market size 2025, 100M+ active users",
+      "market_size": "\u20ac31.9B revenue",
+      "business_model": "15-30% commission on fares, subscription options (Uber Plus), data monetization",
+      "outbound": [
+        "P040",
+        "P041",
+        "P068",
+        "P069"
+      ],
+      "inbound": [
+        "P112",
+        "P114",
+        "P115",
+        "P024",
+        "P074",
+        "P040",
+        "P156",
+        "P157"
+      ]
+    },
+    {
+      "id": "P061",
+      "name": "Bolt",
+      "segment": "Local Mobility",
+      "archetype": [
+        "Infrastructure Integrators"
+      ],
+      "color": "#1F8C7D",
+      "description": "European ride-hailing, 70+ cities, competitor to Uber",
+      "market_size": "\u20ac4.7B valuation",
+      "business_model": "Commission-based, subscription tiers (Bolt Plus)",
+      "outbound": [
+        "P040",
+        "P068"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P062",
+      "name": "Bike/Scooter Sharing (Lime, Voi)",
+      "segment": "Local Mobility",
+      "archetype": [
+        "Infrastructure Integrators"
+      ],
+      "color": "#1F8C7D",
+      "description": "Micro-mobility, 100+ cities, sustainable last-mile",
+      "market_size": "\u20ac10B valuation (combined)",
+      "business_model": "Pay-per-use, subscription passes, corporate partnerships",
+      "outbound": [
+        "P040"
+      ],
+      "inbound": [
+        "P112",
+        "P113",
+        "P115"
+      ]
+    },
+    {
+      "id": "P112",
+      "name": "Transport for London",
+      "segment": "Local Mobility",
+      "archetype": [
+        "Infrastructure Integrators"
+      ],
+      "color": "#1F8C7D",
+      "description": "Major public transport operator, cross-subsidy model",
+      "market_size": "Public funding based",
+      "business_model": "Passenger fares (40%), government subsidies (44%), advertising (8%), commercial (8%)",
+      "outbound": [
+        "P010",
+        "P062"
+      ],
+      "inbound": [
+        "P116"
+      ]
+    },
+    {
+      "id": "P113",
+      "name": "Berlin BVG",
+      "segment": "Local Mobility",
+      "archetype": [
+        "Infrastructure Integrators"
+      ],
+      "color": "#1F8C7D",
+      "description": "German public transport, MaaS integration (Jelbi platform)",
+      "market_size": "",
+      "business_model": "Public-private partnerships, MaaS revenue sharing",
+      "outbound": [
+        "P062"
+      ],
+      "inbound": [
+        "P115",
+        "P116"
+      ]
+    },
+    {
+      "id": "P114",
+      "name": "RATP (Paris)",
+      "segment": "Local Mobility",
+      "archetype": [
+        "Infrastructure Integrators"
+      ],
+      "color": "#1F8C7D",
+      "description": "French public transport operator.",
+      "market_size": "",
+      "business_model": "",
+      "outbound": [
+        "P010",
+        "P156",
+        "P012"
+      ],
+      "inbound": [
+        "P116",
+        "P156",
+        "P159"
+      ]
+    },
+    {
+      "id": "P059",
+      "name": "Rental Car Companies",
+      "segment": "Long-Distance Transport",
+      "archetype": [
+        "Infrastructure Integrators",
+        "Vertical Specialists"
+      ],
+      "color": "#1F8C7D",
+      "description": "Hertz, Avis, Budget, Enterprise, Europcar",
+      "market_size": "\u20ac45B rental car market",
+      "business_model": "Daily rental rates, insurance add-ons, loyalty programs, corporate contracts",
+      "outbound": [
+        "P001",
+        "P002",
+        "P007",
+        "P008",
+        "P046",
+        "P068"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P060",
+      "name": "Cruise Lines",
+      "segment": "Long-Distance Transport",
+      "archetype": [
+        "Infrastructure Integrators",
+        "Experience Designers"
+      ],
+      "color": "#1F8C7D",
+      "description": "Royal Caribbean, Disney, Carnival, Cunard, Celebrity",
+      "market_size": "\u20ac60B cruise industry",
+      "business_model": "Per-person pricing, onboard spending, pre-cruise packages, excursions",
+      "outbound": [
+        "P007",
+        "P008",
+        "P014",
+        "P040",
+        "P051"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P115",
+      "name": "Helsinki Whim MaaS",
+      "segment": "Local Mobility",
+      "archetype": [
+        "Infrastructure Integrators",
+        "Experience Designers"
+      ],
+      "color": "#1F8C7D",
+      "description": "Integrated MaaS platform combining transit + micro-mobility + ride-sharing",
+      "market_size": "",
+      "business_model": "Subscription tiers, unified payment, usage-based pricing",
+      "outbound": [
+        "P010",
+        "P062",
+        "P113"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P116",
+      "name": "EU Mobility Data Space",
+      "segment": "Data Infrastructure",
+      "archetype": [
+        "Facilitators & Enablers"
+      ],
+      "color": "#4A90E2",
+      "description": "EU-funded data-sharing infrastructure for mobility operators",
+      "market_size": "\u20ac15M Digital Europe Programme funding",
+      "business_model": "Public funding, enabling coordination and optimization",
+      "outbound": [
+        "P001",
+        "P112",
+        "P113",
+        "P114"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P005",
+      "name": "Marriott International",
+      "segment": "Accommodation",
+      "archetype": [
+        "Infrastructure Integrators",
+        "Vertical Specialists"
+      ],
+      "color": "#1F8C7D",
+      "description": "Global hotel chain, 1.68M rooms, 144 countries, 7,600+ properties",
+      "market_size": "\u20ac19.2B revenue",
+      "business_model": "Room rates, ancillary services, franchise fees, loyalty programs",
+      "outbound": [
+        "P003",
+        "P006",
+        "P044",
+        "P050",
+        "P051"
+      ],
+      "inbound": [
+        "P002",
+        "P003",
+        "P007",
+        "P008",
+        "P006",
+        "P013",
+        "P011",
+        "P081",
+        "P071",
+        "P105",
+        "P106",
+        "P107",
+        "P018",
+        "P019",
+        "P017",
+        "P020",
+        "P031",
+        "P032",
+        "P033",
+        "P034",
+        "P035",
+        "P039",
+        "P048",
+        "P053",
+        "P021",
+        "P040",
+        "P086",
+        "P087",
+        "P029",
+        "P030",
+        "P096",
+        "P056",
+        "P057",
+        "P100",
+        "P101",
+        "P077",
+        "P153",
+        "P158",
+        "P161"
+      ]
+    },
+    {
+      "id": "P036",
+      "name": "Hilton Hotels",
+      "segment": "Accommodation",
+      "archetype": [
+        "Infrastructure Integrators",
+        "Vertical Specialists"
+      ],
+      "color": "#1F8C7D",
+      "description": "Global hotel chain, 1.3M rooms, 530+ brands, 25+ countries",
+      "market_size": "\u20ac8.5B revenue",
+      "business_model": "Brand licensing, management contracts, asset-light model, loyalty programs",
+      "outbound": [
+        "P003",
+        "P006",
+        "P044",
+        "P050",
+        "P051"
+      ],
+      "inbound": [
+        "P071",
+        "P086",
+        "P087",
+        "P056",
+        "P057",
+        "P100"
+      ]
+    },
+    {
+      "id": "P037",
+      "name": "Accor Hotels",
+      "segment": "Accommodation",
+      "archetype": [
+        "Infrastructure Integrators",
+        "Vertical Specialists"
+      ],
+      "color": "#1F8C7D",
+      "description": "International hotel group, 750K+ rooms, 50+ brands worldwide",
+      "market_size": "\u20ac6.2B revenue",
+      "business_model": "Diversified portfolio (luxury to budget), management model, licensing",
+      "outbound": [
+        "P003",
+        "P006",
+        "P044",
+        "P050",
+        "P051"
+      ],
+      "inbound": [
+        "P071",
+        "P087",
+        "P056",
+        "P100"
+      ]
+    },
+    {
+      "id": "P038",
+      "name": "IHG Hotels",
+      "segment": "Accommodation",
+      "archetype": [
+        "Infrastructure Integrators",
+        "Vertical Specialists"
+      ],
+      "color": "#1F8C7D",
+      "description": "InterContinental Hotels Group, 900K+ rooms, 60+ brands",
+      "market_size": "\u20ac4.8B revenue",
+      "business_model": "Franchise model, brand portfolio, corporate partnerships",
+      "outbound": [
+        "P003",
+        "P006",
+        "P044",
+        "P050",
+        "P051"
+      ],
+      "inbound": [
+        "P071",
+        "P086",
+        "P087",
+        "P056",
+        "P100"
+      ]
+    },
+    {
+      "id": "P007",
+      "name": "Booking.com",
+      "segment": "OTA / Intermediary",
+      "archetype": [
+        "Infrastructure Integrators"
+      ],
+      "color": "#1F8C7D",
+      "description": "Global OTA leader, 112.8B market cap, 2.5M+ accommodations, 69.3% EU market",
+      "market_size": "\u20ac21.4B revenue (2024)",
+      "business_model": "Commission (15-25%), advertising, ancillary services, loyalty programs",
+      "outbound": [
+        "P003",
+        "P005",
+        "P040",
+        "P041",
+        "P050",
+        "P068",
+        "P069"
+      ],
+      "inbound": [
+        "P059",
+        "P060",
+        "P041",
+        "P046",
+        "P011",
+        "P012",
+        "P022",
+        "P023",
+        "P024",
+        "P049",
+        "P054",
+        "P074",
+        "P088",
+        "P089",
+        "P090",
+        "P091",
+        "P103",
+        "P105",
+        "P106",
+        "P108",
+        "P109",
+        "P110",
+        "P111",
+        "P026",
+        "P040",
+        "P073",
+        "P153",
+        "P155",
+        "P157"
+      ]
+    },
+    {
+      "id": "P008",
+      "name": "Expedia",
+      "segment": "OTA / Intermediary",
+      "archetype": [
+        "Infrastructure Integrators"
+      ],
+      "color": "#1F8C7D",
+      "description": "Major OTA, 15.3B market cap, 12.8B revenue, global presence",
+      "market_size": "\u20ac12.8B revenue",
+      "business_model": "Commission-based, metasearch integration, vertical integration (Hotels.com, Vrbo)",
+      "outbound": [
+        "P003",
+        "P005",
+        "P040",
+        "P041",
+        "P050",
+        "P068"
+      ],
+      "inbound": [
+        "P059",
+        "P060",
+        "P045",
+        "P041",
+        "P046",
+        "P011",
+        "P012",
+        "P022",
+        "P023",
+        "P024",
+        "P049",
+        "P054",
+        "P074",
+        "P088",
+        "P089",
+        "P090",
+        "P091",
+        "P103",
+        "P105",
+        "P106",
+        "P026",
+        "P073"
+      ]
+    },
+    {
+      "id": "P009",
+      "name": "Airbnb",
+      "segment": "Alternative Accommodation",
+      "archetype": [
+        "Infrastructure Integrators",
+        "Experience Designers"
+      ],
+      "color": "#1F8C7D",
+      "description": "Alternative accommodation platform, 91.1B market cap, 8.1M listings",
+      "market_size": "\u20ac9.9B revenue",
+      "business_model": "3-16% service fee from guests, 14-16% from hosts, experiences, long-term stays",
+      "outbound": [
+        "P040",
+        "P041",
+        "P051",
+        "P068",
+        "P069"
+      ],
+      "inbound": [
+        "P011",
+        "P022",
+        "P024",
+        "P054",
+        "P088",
+        "P090",
+        "P070",
+        "P085"
+      ]
+    },
+    {
+      "id": "P045",
+      "name": "Vrbo (Vacation Rentals)",
+      "segment": "Alternative Accommodation",
+      "archetype": [
+        "Infrastructure Integrators",
+        "Experience Designers"
+      ],
+      "color": "#1F8C7D",
+      "description": "Vacation rental platform, 2M+ properties, Expedia-owned",
+      "market_size": "\u20ac1.5B revenue (estimated)",
+      "business_model": "Commission-based (12-15%), subscription for hosts, ancillary services",
+      "outbound": [
+        "P008",
+        "P040",
+        "P068"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P044",
+      "name": "Hotel Owners / Independents",
+      "segment": "Accommodation",
+      "archetype": [
+        "Vertical Specialists",
+        "Experience Designers"
+      ],
+      "color": "#E85D75",
+      "description": "Boutique hotels, family-run properties, unique local experiences",
+      "market_size": "\u20ac500B (estimated)",
+      "business_model": "Room rates, ancillary services, direct bookings, local partnerships",
+      "outbound": [
+        "P003",
+        "P006",
+        "P013",
+        "P017",
+        "P018",
+        "P019",
+        "P021",
+        "P031",
+        "P034",
+        "P035",
+        "P040",
+        "P042",
+        "P043"
+      ],
+      "inbound": [
+        "P003",
+        "P005",
+        "P036",
+        "P037",
+        "P038",
+        "P006",
+        "P013",
+        "P014",
+        "P051",
+        "P063",
+        "P068",
+        "P069",
+        "P018",
+        "P019",
+        "P017",
+        "P020",
+        "P031",
+        "P032",
+        "P033",
+        "P034",
+        "P035",
+        "P039",
+        "P048",
+        "P053",
+        "P021",
+        "P070",
+        "P029",
+        "P030",
+        "P042",
+        "P065",
+        "P057",
+        "P077"
+      ]
+    },
+    {
+      "id": "P055",
+      "name": "Hostelworld",
+      "segment": "Budget Accommodation",
+      "archetype": [
+        "Infrastructure Integrators",
+        "Vertical Specialists"
+      ],
+      "color": "#1F8C7D",
+      "description": "Hostel booking platform, 40K+ hostels, budget travelers",
+      "market_size": "\u20ac180M market cap",
+      "business_model": "Commission (8-12%), affiliate marketing, advertising",
+      "outbound": [
+        "P040",
+        "P041",
+        "P068"
+      ],
+      "inbound": [
+        "P079"
+      ]
+    },
+    {
+      "id": "P079",
+      "name": "Hostelling International",
+      "segment": "Budget Accommodation",
+      "archetype": [
+        "Infrastructure Integrators",
+        "Vertical Specialists"
+      ],
+      "color": "#1F8C7D",
+      "description": "Budget accommodation network, 4,200+ hostels, 180 countries",
+      "market_size": "\u20ac500M market",
+      "business_model": "Membership fees, hostel commissions, partnerships",
+      "outbound": [
+        "P040",
+        "P055",
+        "P068"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P006",
+      "name": "SiteMinder",
+      "segment": "Channel Manager",
+      "archetype": [
+        "Facilitators & Enablers",
+        "Market Aggregators"
+      ],
+      "color": "#4A90E2",
+      "description": "Channel manager, 41.6K hotels, 100M+ bookings/year",
+      "market_size": "\u20ac250M revenue",
+      "business_model": "Per-booking fees, subscription plans, premium features",
+      "outbound": [
+        "P005",
+        "P044",
+        "P050",
+        "P070"
+      ],
+      "inbound": [
+        "P005",
+        "P036",
+        "P037",
+        "P038",
+        "P044",
+        "P050"
+      ]
+    },
+    {
+      "id": "P013",
+      "name": "Hotelbeds",
+      "segment": "Bed Bank",
+      "archetype": [
+        "Vertical Specialists",
+        "Market Aggregators"
+      ],
+      "color": "#E85D75",
+      "description": "Bed bank/wholesale aggregator, 180K+ hotels, 185 countries, 60K+ partners",
+      "market_size": "\u20ac2.1B revenue",
+      "business_model": "Wholesale pricing, tour operator margins, DMC partnerships",
+      "outbound": [
+        "P003",
+        "P005",
+        "P044",
+        "P050",
+        "P075",
+        "P076"
+      ],
+      "inbound": [
+        "P044",
+        "P014",
+        "P041",
+        "P051",
+        "P075",
+        "P076"
+      ]
+    },
+    {
+      "id": "P014",
+      "name": "TUI Group",
+      "segment": "Tour Operator",
+      "archetype": [
+        "Infrastructure Integrators",
+        "Vertical Specialists",
+        "Market Aggregators"
+      ],
+      "color": "#1F8C7D",
+      "description": "Global tour operator, 66K employees, 11M clients/year, 1,800 agencies",
+      "market_size": "\u20ac21.5B revenue",
+      "business_model": "Package tours, dynamic packaging, vertical integration (airlines, hotels)",
+      "outbound": [
+        "P003",
+        "P001",
+        "P002",
+        "P013",
+        "P044",
+        "P050",
+        "P075"
+      ],
+      "inbound": [
+        "P060",
+        "P041",
+        "P051",
+        "P022",
+        "P023",
+        "P024",
+        "P049",
+        "P090",
+        "P075"
+      ]
+    },
+    {
+      "id": "P041",
+      "name": "Travel Agencies",
+      "segment": "Retail / Intermediary",
+      "archetype": [
+        "Vertical Specialists",
+        "Market Aggregators"
+      ],
+      "color": "#E85D75",
+      "description": "Traditional retail agencies, consulting, personalized service",
+      "market_size": "\u20ac130B market size globally",
+      "business_model": "Commission (5-15%), service fees, package discounts, corporate contracts",
+      "outbound": [
+        "P003",
+        "P007",
+        "P008",
+        "P013",
+        "P014",
+        "P040",
+        "P068"
+      ],
+      "inbound": [
+        "P003",
+        "P010",
+        "P007",
+        "P008",
+        "P009",
+        "P055",
+        "P015",
+        "P016",
+        "P107",
+        "P025",
+        "P027",
+        "P064",
+        "P068",
+        "P032",
+        "P033",
+        "P043",
+        "P050",
+        "P078",
+        "P076"
+      ]
+    },
+    {
+      "id": "P046",
+      "name": "Kayak Metasearch",
+      "segment": "Metasearch",
+      "archetype": [
+        "Facilitators & Enablers",
+        "Market Aggregators"
+      ],
+      "color": "#4A90E2",
+      "description": "Multi-product metasearch, flights/hotels/cars, Booking-owned",
+      "market_size": "\u20ac500M revenue (estimated)",
+      "business_model": "CPC (cost-per-click) advertising, referral commissions",
+      "outbound": [
+        "P001",
+        "P002",
+        "P007",
+        "P008",
+        "P012"
+      ],
+      "inbound": [
+        "P059",
+        "P081"
+      ]
+    },
+    {
+      "id": "P011",
+      "name": "Google Hotel Ads",
+      "segment": "Metasearch",
+      "archetype": [
+        "Facilitators & Enablers",
+        "Community Builders"
+      ],
+      "color": "#4A90E2",
+      "description": "Metasearch engine, 100M+ daily searches, integrated Google Search/Maps",
+      "market_size": "Integration revenue",
+      "business_model": "CPC advertising, click-through commissions, data monetization",
+      "outbound": [
+        "P005",
+        "P007",
+        "P008",
+        "P009",
+        "P050"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P012",
+      "name": "Trivago",
+      "segment": "Metasearch",
+      "archetype": [
+        "Facilitators & Enablers",
+        "Market Aggregators"
+      ],
+      "color": "#4A90E2",
+      "description": "Metasearch/price comparison, 100+ OTA monitoring, Expedia-owned",
+      "market_size": "\u20ac150M market cap",
+      "business_model": "CPC advertising, referral partnerships, premium listings",
+      "outbound": [
+        "P007",
+        "P008",
+        "P050"
+      ],
+      "inbound": [
+        "P114",
+        "P046"
+      ]
+    },
+    {
+      "id": "P015",
+      "name": "Viator",
+      "segment": "Experiences / Activities",
+      "archetype": [
+        "Infrastructure Integrators",
+        "Experience Designers"
+      ],
+      "color": "#1F8C7D",
+      "description": "Experience marketplace, 50K+ activities, 500+ cities, TripAdvisor-owned",
+      "market_size": "\u20ac840M revenue (Q4 2024)",
+      "business_model": "45-55% commission, booking fees, premium placements",
+      "outbound": [
+        "P040",
+        "P041",
+        "P051",
+        "P068"
+      ],
+      "inbound": [
+        "P047",
+        "P024",
+        "P054",
+        "P026",
+        "P058",
+        "P040",
+        "P153"
+      ]
+    },
+    {
+      "id": "P016",
+      "name": "GetYourGuide",
+      "segment": "Experiences / Activities",
+      "archetype": [
+        "Infrastructure Integrators",
+        "Experience Designers"
+      ],
+      "color": "#1F8C7D",
+      "description": "Activity booking platform, 100K+ experiences, 200+ destinations",
+      "market_size": "\u20ac500M revenue (estimated)",
+      "business_model": "Commission-based (15-25%), affiliate partnerships, featured listings",
+      "outbound": [
+        "P040",
+        "P041",
+        "P051",
+        "P068"
+      ],
+      "inbound": [
+        "P047",
+        "P024",
+        "P054",
+        "P058"
+      ]
+    },
+    {
+      "id": "P051",
+      "name": "Tour Operators / DMCs",
+      "segment": "Ground Operators",
+      "archetype": [
+        "Vertical Specialists",
+        "Experience Designers",
+        "Market Aggregators"
+      ],
+      "color": "#E85D75",
+      "description": "Ground operations, FIT customization, destination specialists",
+      "market_size": "\u20ac150B market size",
+      "business_model": "Wholesale pricing, FIT markup (20-30%), group tour contracts",
+      "outbound": [
+        "P013",
+        "P014",
+        "P043",
+        "P044",
+        "P047",
+        "P068"
+      ],
+      "inbound": [
+        "P060",
+        "P005",
+        "P036",
+        "P037",
+        "P038",
+        "P009",
+        "P015",
+        "P016",
+        "P082",
+        "P047",
+        "P068",
+        "P018",
+        "P019",
+        "P020",
+        "P039",
+        "P043",
+        "P058",
+        "P083",
+        "P084",
+        "P078",
+        "P072"
+      ]
+    },
+    {
+      "id": "P081",
+      "name": "Omio (Travel Search)",
+      "segment": "Metasearch",
+      "archetype": [
+        "Facilitators & Enablers",
+        "Market Aggregators"
+      ],
+      "color": "#4A90E2",
+      "description": "Multi-modal travel search, buses/trains/flights, alternative metasearch",
+      "market_size": "\u20ac200M valuation (estimated)",
+      "business_model": "CPC advertising, affiliate commissions, partnership revenue",
+      "outbound": [
+        "P001",
+        "P002",
+        "P004",
+        "P005",
+        "P046"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P082",
+      "name": "OpenTable Dining",
+      "segment": "Restaurant Bookings",
+      "archetype": [
+        "Infrastructure Integrators",
+        "Experience Designers"
+      ],
+      "color": "#1F8C7D",
+      "description": "Restaurant booking platform, 60K+ restaurants, reservation focus",
+      "market_size": "\u20ac600M revenue (estimated)",
+      "business_model": "Commission per booking (3-5%), consumer fees, restaurant subscriptions",
+      "outbound": [
+        "P040",
+        "P043",
+        "P051"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P047",
+      "name": "Klook Experiences",
+      "segment": "Experiences / Activities",
+      "archetype": [
+        "Infrastructure Integrators",
+        "Experience Designers"
+      ],
+      "color": "#1F8C7D",
+      "description": "Asia-Pacific experience platform, 100K+ activities, tours",
+      "market_size": "\u20ac1B valuation",
+      "business_model": "Commission-based (20-30%), exclusive partnerships, corporate programs",
+      "outbound": [
+        "P015",
+        "P016",
+        "P040",
+        "P051"
+      ],
+      "inbound": [
+        "P051"
+      ]
+    },
+    {
+      "id": "P071",
+      "name": "Luxury Travel Specialists",
+      "segment": "Travel Agency (Luxury)",
+      "archetype": [
+        "Vertical Specialists",
+        "Experience Designers"
+      ],
+      "color": "#E85D75",
+      "description": "High-end agencies, bespoke travel, Relais & Ch\u00e2teaux partnerships",
+      "market_size": "\u20ac500B luxury travel market",
+      "business_model": "Commissions (10-20%), service fees (\u20ac200-500), exclusive partnerships",
+      "outbound": [
+        "P005",
+        "P036",
+        "P037",
+        "P038",
+        "P040"
+      ],
+      "inbound": [
+        "P087",
+        "P101"
+      ]
+    },
+    {
+      "id": "P022",
+      "name": "Klarna",
+      "segment": "Payments - BNPL",
+      "archetype": [
+        "Facilitators & Enablers"
+      ],
+      "color": "#4A90E2",
+      "description": "BNPL provider, 50% YoY growth in travel, Gen Z focus",
+      "market_size": "\u20ac46B valuation",
+      "business_model": "Merchant fees (3-8%), interest (0% promotional), late fees, securitization",
+      "outbound": [
+        "P007",
+        "P008",
+        "P009",
+        "P014",
+        "P040",
+        "P068"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P023",
+      "name": "Allianz Travel Insurance",
+      "segment": "Insurance",
+      "archetype": [
+        "Vertical Specialists",
+        "Facilitators & Enablers"
+      ],
+      "color": "#E85D75",
+      "description": "Travel insurance provider, global coverage, risk mitigation",
+      "market_size": "\u20ac500M revenue (estimated)",
+      "business_model": "Premiums (\u20ac15-100 per policy), commission from partners, bundled packages",
+      "outbound": [
+        "P007",
+        "P008",
+        "P014",
+        "P040",
+        "P068"
+      ],
+      "inbound": [
+        "P089",
+        "P103",
+        "P073"
+      ]
+    },
+    {
+      "id": "P024",
+      "name": "PayPal",
+      "segment": "Payments",
+      "archetype": [
+        "Facilitators & Enablers"
+      ],
+      "color": "#4A90E2",
+      "description": "Payment processor, 55% of European travel transactions",
+      "market_size": "\u20ac38B market cap",
+      "business_model": "Transaction fees (1.99%+), cross-border markups, buyer protection fees",
+      "outbound": [
+        "P007",
+        "P008",
+        "P009",
+        "P010",
+        "P014",
+        "P015",
+        "P016",
+        "P040",
+        "P068"
+      ],
+      "inbound": [
+        "P054",
+        "P088",
+        "P089",
+        "P103",
+        "P028"
+      ]
+    },
+    {
+      "id": "P049",
+      "name": "Affirm (BNPL)",
+      "segment": "Payments - BNPL",
+      "archetype": [
+        "Facilitators & Enablers"
+      ],
+      "color": "#4A90E2",
+      "description": "Buy-Now-Pay-Later fintech, travel-specific offerings",
+      "market_size": "\u20ac3B valuation",
+      "business_model": "Merchant discount rate (2-6%), late fees, financing charges",
+      "outbound": [
+        "P007",
+        "P008",
+        "P014",
+        "P040"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P054",
+      "name": "Stripe Payments",
+      "segment": "Payments",
+      "archetype": [
+        "Facilitators & Enablers"
+      ],
+      "color": "#4A90E2",
+      "description": "Payment processor, travel payments, global coverage",
+      "market_size": "\u20ac95B valuation",
+      "business_model": "Transaction fees (2.2% + $0.30), payment methods fees, premium features",
+      "outbound": [
+        "P007",
+        "P008",
+        "P009",
+        "P015",
+        "P016",
+        "P024",
+        "P040"
+      ],
+      "inbound": [
+        "P088"
+      ]
+    },
+    {
+      "id": "P074",
+      "name": "Apple Pay / Digital Wallets",
+      "segment": "Payments",
+      "archetype": [
+        "Facilitators & Enablers"
+      ],
+      "color": "#4A90E2",
+      "description": "Mobile payment, contactless transactions, payment convenience",
+      "market_size": "\u20ac8T mobile payment market",
+      "business_model": "Interchange fees (variable by card), brand partnerships, data integration",
+      "outbound": [
+        "P001",
+        "P002",
+        "P007",
+        "P008",
+        "P010",
+        "P040"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P088",
+      "name": "Yolo Insurance",
+      "segment": "Insurance - Insurtech",
+      "archetype": [
+        "Vertical Specialists",
+        "Facilitators & Enablers"
+      ],
+      "color": "#E85D75",
+      "description": "Italian digital insurtech, fully mobile micro-policies, real-time activation",
+      "market_size": "Expanding European operations",
+      "business_model": "API-embedded partnerships, micro-policy premiums (\u20ac2-15), B2B2C revenue",
+      "outbound": [
+        "P007",
+        "P008",
+        "P009",
+        "P024",
+        "P054"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P089",
+      "name": "Allianz Partners (Allyz Ecosystem)",
+      "segment": "Insurance",
+      "archetype": [
+        "Vertical Specialists",
+        "Facilitators & Enablers"
+      ],
+      "color": "#E85D75",
+      "description": "Traditional insurer + digital ecosystem combining protection + digital services",
+      "market_size": "",
+      "business_model": "Premiums, commission from embedded channels, data services",
+      "outbound": [
+        "P007",
+        "P008",
+        "P023",
+        "P024"
+      ],
+      "inbound": [
+        "P092"
+      ]
+    },
+    {
+      "id": "P090",
+      "name": "Klarna BNPL",
+      "segment": "Payments - BNPL",
+      "archetype": [
+        "Facilitators & Enablers"
+      ],
+      "color": "#4A90E2",
+      "description": "BNPL leader, 50% YoY growth in travel, Gen Z adoption",
+      "market_size": "\u20ac46B valuation",
+      "business_model": "Merchant fees, interest on late payments, securitization of receivables",
+      "outbound": [
+        "P007",
+        "P008",
+        "P009",
+        "P014",
+        "P040"
+      ],
+      "inbound": [
+        "P092",
+        "P106"
+      ]
+    },
+    {
+      "id": "P091",
+      "name": "Scalapay BNPL",
+      "segment": "Payments - BNPL",
+      "archetype": [
+        "Facilitators & Enablers"
+      ],
+      "color": "#4A90E2",
+      "description": "European BNPL, integrated travel booking platforms",
+      "market_size": "",
+      "business_model": "Merchant fees (1-3%), installment interest, premium subscriptions",
+      "outbound": [
+        "P007",
+        "P008",
+        "P040"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P092",
+      "name": "N26 Digital Bank",
+      "segment": "Payments / Banking",
+      "archetype": [
+        "Facilitators & Enablers"
+      ],
+      "color": "#4A90E2",
+      "description": "Digital bank bundling health + delay/cancellation insurance with services",
+      "market_size": "",
+      "business_model": "Subscription (\u20ac10-20/mo), interchange fees, insurance partnerships",
+      "outbound": [
+        "P089",
+        "P090",
+        "P040"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P093",
+      "name": "Revolut Fintech",
+      "segment": "Payments / Banking",
+      "archetype": [
+        "Facilitators & Enablers"
+      ],
+      "color": "#4A90E2",
+      "description": "Multi-functional spending app with FX optimization, cashback, insurance",
+      "market_size": "",
+      "business_model": "Subscription tiers (\u20ac7.99-13.99/mo), FX markups (0.5%), premium features",
+      "outbound": [
+        "P040"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P094",
+      "name": "Satispay Payment",
+      "segment": "Payments",
+      "archetype": [
+        "Facilitators & Enablers"
+      ],
+      "color": "#4A90E2",
+      "description": "European fintech payment platform with travel integration",
+      "market_size": "",
+      "business_model": "Interchange fees, transaction fees, subscription services",
+      "outbound": [
+        "P040"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P103",
+      "name": "Generali Insurance",
+      "segment": "Insurance",
+      "archetype": [
+        "Vertical Specialists",
+        "Facilitators & Enablers"
+      ],
+      "color": "#E85D75",
+      "description": "Traditional insurance provider with digital transformation",
+      "market_size": "",
+      "business_model": "Premium-based (\u20ac20-80), claims management, digital services",
+      "outbound": [
+        "P007",
+        "P008",
+        "P023",
+        "P024"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P104",
+      "name": "World Nomads Insurance",
+      "segment": "Insurance (Adventure/Niche)",
+      "archetype": [
+        "Vertical Specialists"
+      ],
+      "color": "#E85D75",
+      "description": "Adventure travel specialist insurance",
+      "market_size": "",
+      "business_model": "Adventure-focused premiums (\u20ac50-200), niche market markup",
+      "outbound": [
+        "P040",
+        "P070"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P105",
+      "name": "Visa Card Network",
+      "segment": "Payments",
+      "archetype": [
+        "Facilitators & Enablers"
+      ],
+      "color": "#4A90E2",
+      "description": "Global payment card network with travel-specific products",
+      "market_size": "",
+      "business_model": "Interchange fees (0.5-3%), issuer/acquirer fees, travel services",
+      "outbound": [
+        "P001",
+        "P002",
+        "P005",
+        "P007",
+        "P008",
+        "P040"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P106",
+      "name": "Mastercard Card Network",
+      "segment": "Payments",
+      "archetype": [
+        "Facilitators & Enablers"
+      ],
+      "color": "#4A90E2",
+      "description": "Global card network with BNPL travel programs",
+      "market_size": "",
+      "business_model": "Interchange fees, BNPL partnerships, travel insurance bundling",
+      "outbound": [
+        "P001",
+        "P002",
+        "P005",
+        "P007",
+        "P008",
+        "P040",
+        "P090"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P107",
+      "name": "American Express",
+      "segment": "Payments & Travel Management",
+      "archetype": [
+        "Facilitators & Enablers"
+      ],
+      "color": "#4A90E2",
+      "description": "Premium travel card issuer + travel management company",
+      "market_size": "",
+      "business_model": "Annual fees (\u20ac100-500), interchange fees, travel services (3-8% premium)",
+      "outbound": [
+        "P005",
+        "P041",
+        "P050",
+        "P052"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P108",
+      "name": "Intesa Sanpaolo (Bank)",
+      "segment": "Banking / Payments",
+      "archetype": [
+        "Facilitators & Enablers"
+      ],
+      "color": "#4A90E2",
+      "description": "Major Italian bank with travel lending products.",
+      "market_size": "",
+      "business_model": "",
+      "outbound": [
+        "P007",
+        "P001",
+        "P157"
+      ],
+      "inbound": [
+        "P157",
+        "P158",
+        "P159",
+        "P160"
+      ]
+    },
+    {
+      "id": "P109",
+      "name": "UniCredit (Bank)",
+      "segment": "Banking / Payments",
+      "archetype": [
+        "Facilitators & Enablers"
+      ],
+      "color": "#4A90E2",
+      "description": "Major European bank.",
+      "market_size": "",
+      "business_model": "",
+      "outbound": [
+        "P007",
+        "P001",
+        "P157"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P110",
+      "name": "BNL (Bank)",
+      "segment": "Banking / Payments",
+      "archetype": [
+        "Facilitators & Enablers"
+      ],
+      "color": "#4A90E2",
+      "description": "Major Italian bank.",
+      "market_size": "",
+      "business_model": "",
+      "outbound": [
+        "P007",
+        "P001",
+        "P157"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P111",
+      "name": "Widiba (Bank)",
+      "segment": "Banking / Payments",
+      "archetype": [
+        "Facilitators & Enablers"
+      ],
+      "color": "#4A90E2",
+      "description": "Digital bank.",
+      "market_size": "",
+      "business_model": "",
+      "outbound": [
+        "P007",
+        "P001",
+        "P157"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P025",
+      "name": "Instagram Travel Creators",
+      "segment": "Social Media",
+      "archetype": [
+        "Community Builders"
+      ],
+      "color": "#BD10E0",
+      "description": "Travel influencers, content creators, destination inspiration",
+      "market_size": "\u20ac20B+ influencer economy",
+      "business_model": "Sponsored posts (\u20ac500-5K), brand partnerships, affiliate links",
+      "outbound": [
+        "P040",
+        "P041",
+        "P068",
+        "P069"
+      ],
+      "inbound": [
+        "P085",
+        "P028",
+        "P154"
+      ]
+    },
+    {
+      "id": "P026",
+      "name": "TripAdvisor",
+      "segment": "Reviews & Community",
+      "archetype": [
+        "Facilitators & Enablers",
+        "Community Builders"
+      ],
+      "color": "#4A90E2",
+      "description": "Review platform + metasearch, 100M+ reviews, 500M+ monthly users",
+      "market_size": "\u20ac2B market cap",
+      "business_model": "Referral commissions, sponsored listings, premium placements",
+      "outbound": [
+        "P007",
+        "P008",
+        "P015",
+        "P040",
+        "P068"
+      ],
+      "inbound": [
+        "P085",
+        "P028"
+      ]
+    },
+    {
+      "id": "P027",
+      "name": "Reddit Travel Communities",
+      "segment": "Community Platform",
+      "archetype": [
+        "Community Builders"
+      ],
+      "color": "#BD10E0",
+      "description": "Peer-to-peer advice, r/travel 5M+ subscribers, authentic recommendations",
+      "market_size": "Community-driven",
+      "business_model": "Community engagement, partner integrations, no direct revenue",
+      "outbound": [
+        "P040",
+        "P041",
+        "P068"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P063",
+      "name": "Google Reviews & Maps",
+      "segment": "Review & Discovery",
+      "archetype": [
+        "Facilitators & Enablers",
+        "Community Builders"
+      ],
+      "color": "#4A90E2",
+      "description": "Review aggregation, location discovery, 200M+ reviews",
+      "market_size": "Integrated in Google",
+      "business_model": "Business location services, advertising, maps API",
+      "outbound": [
+        "P040",
+        "P043",
+        "P044",
+        "P068"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P064",
+      "name": "Facebook Travel Groups",
+      "segment": "Community Platform",
+      "archetype": [
+        "Community Builders"
+      ],
+      "color": "#BD10E0",
+      "description": "Peer communities, destination groups, 100M+ members",
+      "market_size": "Community-driven",
+      "business_model": "Organic community, sponsored groups, advertising",
+      "outbound": [
+        "P040",
+        "P041"
+      ],
+      "inbound": [
+        "P085"
+      ]
+    },
+    {
+      "id": "P068",
+      "name": "Travel Bloggers & Content Creators",
+      "segment": "Digital Media",
+      "archetype": [
+        "Community Builders"
+      ],
+      "color": "#BD10E0",
+      "description": "YouTube, blogs, podcasts, destination storytellers",
+      "market_size": "\u20ac20B+ influencer economy",
+      "business_model": "YouTube monetization, sponsorships, affiliate commissions, Patreon",
+      "outbound": [
+        "P040",
+        "P041",
+        "P043",
+        "P044",
+        "P051"
+      ],
+      "inbound": [
+        "P001",
+        "P002",
+        "P004",
+        "P010",
+        "P061",
+        "P059",
+        "P007",
+        "P008",
+        "P009",
+        "P045",
+        "P055",
+        "P079",
+        "P041",
+        "P015",
+        "P016",
+        "P051",
+        "P022",
+        "P023",
+        "P024",
+        "P025",
+        "P026",
+        "P027",
+        "P063",
+        "P017",
+        "P031",
+        "P048",
+        "P083",
+        "P084",
+        "P050",
+        "P052",
+        "P078",
+        "P080"
+      ]
+    },
+    {
+      "id": "P069",
+      "name": "TikTok Travel Creators",
+      "segment": "Social Media",
+      "archetype": [
+        "Community Builders"
+      ],
+      "color": "#BD10E0",
+      "description": "Short-form video, Gen Z focus, viral destinations",
+      "market_size": "\u20ac20B+ influencer economy",
+      "business_model": "Creator Fund, brand partnerships (\u20ac500-10K), affiliate links",
+      "outbound": [
+        "P040",
+        "P043",
+        "P044"
+      ],
+      "inbound": [
+        "P010",
+        "P007",
+        "P009",
+        "P025",
+        "P050",
+        "P085"
+      ]
+    },
+    {
+      "id": "P018",
+      "name": "Oracle OPERA PMS",
+      "segment": "Technology - PMS",
+      "archetype": [
+        "Vertical Specialists"
+      ],
+      "color": "#E85D75",
+      "description": "Property Management System, enterprise standard, comprehensive operations",
+      "market_size": "\u20ac1.2B revenue (estimated)",
+      "business_model": "Subscription licenses (\u20ac500-5K/month), implementation services, support",
+      "outbound": [
+        "P005",
+        "P044",
+        "P050",
+        "P051"
+      ],
+      "inbound": [
+        "P044",
+        "P020"
+      ]
+    },
+    {
+      "id": "P019",
+      "name": "Mews PMS",
+      "segment": "Technology - PMS",
+      "archetype": [
+        "Vertical Specialists",
+        "Facilitators & Enablers"
+      ],
+      "color": "#E85D75",
+      "description": "Cloud-native PMS, 150+ countries, automation-focused, SME friendly",
+      "market_size": "\u20ac300M valuation",
+      "business_model": "SaaS subscription (\u20ac300-2K/month), per-room fees, premium integrations",
+      "outbound": [
+        "P005",
+        "P044",
+        "P050",
+        "P051"
+      ],
+      "inbound": [
+        "P044",
+        "P020"
+      ]
+    },
+    {
+      "id": "P017",
+      "name": "Revinate",
+      "segment": "Technology - CRM/CDP",
+      "archetype": [
+        "Vertical Specialists",
+        "Facilitators & Enablers"
+      ],
+      "color": "#E85D75",
+      "description": "Hotel CRM & CDP, 12.5K hotels, AI-powered, 17.2B revenue generated",
+      "market_size": "\u20ac120M revenue",
+      "business_model": "Per-property licensing, tiered pricing, premium analytics",
+      "outbound": [
+        "P005",
+        "P044",
+        "P050",
+        "P068"
+      ],
+      "inbound": [
+        "P044",
+        "P020"
+      ]
+    },
+    {
+      "id": "P020",
+      "name": "AWS",
+      "segment": "Technology - Cloud",
+      "archetype": [
+        "Facilitators & Enablers"
+      ],
+      "color": "#4A90E2",
+      "description": "Cloud infrastructure provider, market leader, 200+ services",
+      "market_size": "\u20ac100B+ revenue",
+      "business_model": "Pay-as-you-go compute/storage, reserved instances, support plans",
+      "outbound": [
+        "P003",
+        "P005",
+        "P017",
+        "P018",
+        "P019",
+        "P044",
+        "P050",
+        "P051"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P031",
+      "name": "Cendyn CRM",
+      "segment": "Technology - CRM",
+      "archetype": [
+        "Vertical Specialists"
+      ],
+      "color": "#E85D75",
+      "description": "Hotel CRM, 30K clients, 143 countries, end-to-end marketing",
+      "market_size": "\u20ac100M revenue (estimated)",
+      "business_model": "Per-property subscriptions, tiered pricing, professional services",
+      "outbound": [
+        "P005",
+        "P044",
+        "P050",
+        "P068"
+      ],
+      "inbound": [
+        "P044"
+      ]
+    },
+    {
+      "id": "P032",
+      "name": "Sabre GDS",
+      "segment": "Technology - GDS",
+      "archetype": [
+        "Infrastructure Integrators",
+        "Market Aggregators"
+      ],
+      "color": "#1F8C7D",
+      "description": "Global Distribution System, 400 airlines, 200K+ hotels",
+      "market_size": "\u20ac3.5B revenue",
+      "business_model": "Booking commissions, subscription fees, data services",
+      "outbound": [
+        "P001",
+        "P002",
+        "P005",
+        "P040",
+        "P041",
+        "P044"
+      ],
+      "inbound": [
+        "P050"
+      ]
+    },
+    {
+      "id": "P033",
+      "name": "Travelport GDS",
+      "segment": "Technology - GDS",
+      "archetype": [
+        "Infrastructure Integrators",
+        "Market Aggregators"
+      ],
+      "color": "#1F8C7D",
+      "description": "Global Distribution System, 650K+ hotels, 400+ airlines",
+      "market_size": "\u20ac2.5B revenue",
+      "business_model": "Booking commissions, transaction fees, technology licensing",
+      "outbound": [
+        "P001",
+        "P002",
+        "P005",
+        "P040",
+        "P041",
+        "P044"
+      ],
+      "inbound": [
+        "P050"
+      ]
+    },
+    {
+      "id": "P034",
+      "name": "STR Analytics",
+      "segment": "Technology - Analytics",
+      "archetype": [
+        "Vertical Specialists"
+      ],
+      "color": "#E85D75",
+      "description": "Hotel benchmarking & analytics, global competitor intelligence",
+      "market_size": "\u20ac400M revenue (estimated)",
+      "business_model": "Subscription benchmarking data, tiered access (\u20ac1K-50K/year), consulting",
+      "outbound": [
+        "P005",
+        "P044",
+        "P050"
+      ],
+      "inbound": [
+        "P044"
+      ]
+    },
+    {
+      "id": "P035",
+      "name": "Duetto Revenue Management",
+      "segment": "Technology - Revenue Management",
+      "archetype": [
+        "Vertical Specialists",
+        "Facilitators & Enablers"
+      ],
+      "color": "#E85D75",
+      "description": "AI-powered revenue management, dynamic pricing optimization",
+      "market_size": "\u20ac150M valuation (estimated)",
+      "business_model": "Per-property licensing (\u20ac500-3K/month), revenue share (0.5-1% markup)",
+      "outbound": [
+        "P005",
+        "P044",
+        "P050"
+      ],
+      "inbound": [
+        "P044"
+      ]
+    },
+    {
+      "id": "P039",
+      "name": "Cloudbeds PMS",
+      "segment": "Technology - PMS",
+      "archetype": [
+        "Vertical Specialists",
+        "Facilitators & Enablers"
+      ],
+      "color": "#E85D75",
+      "description": "Cloud PMS for indie hotels, 150+ countries, rapid growth",
+      "market_size": "\u20ac500M valuation (estimated)",
+      "business_model": "Subscription per-property (\u20ac29-200/month), booking fees (1-2%), premium features",
+      "outbound": [
+        "P005",
+        "P044",
+        "P050",
+        "P051"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P048",
+      "name": "Sojern",
+      "segment": "Technology - Marketing",
+      "archetype": [
+        "Facilitators & Enablers",
+        "Community Builders"
+      ],
+      "color": "#4A90E2",
+      "description": "AI advertising & marketing for travel, intent-based targeting",
+      "market_size": "\u20ac500M valuation (estimated)",
+      "business_model": "CPC advertising (\u20ac0.50-5), performance-based fees, data analytics",
+      "outbound": [
+        "P005",
+        "P044",
+        "P050",
+        "P068"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P053",
+      "name": "RateGain Channel Manager",
+      "segment": "Technology - Channel Management",
+      "archetype": [
+        "Facilitators & Enablers",
+        "Market Aggregators"
+      ],
+      "color": "#4A90E2",
+      "description": "Dynamic pricing & distribution, 3.2K customers",
+      "market_size": "\u20ac200M revenue (estimated)",
+      "business_model": "Per-hotel licensing, rate management fees, integration services",
+      "outbound": [
+        "P005",
+        "P044",
+        "P050"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P021",
+      "name": "Kalibri Labs",
+      "segment": "Technology - Revenue Analytics",
+      "archetype": [
+        "Vertical Specialists"
+      ],
+      "color": "#E85D75",
+      "description": "Revenue management analytics, profit-focused metrics, cost analysis",
+      "market_size": "\u20ac50M revenue (estimated)",
+      "business_model": "Subscription analytics (\u20ac1K-5K/month), benchmarking data",
+      "outbound": [
+        "P005",
+        "P044",
+        "P050"
+      ],
+      "inbound": [
+        "P044"
+      ]
+    },
+    {
+      "id": "P043",
+      "name": "Local Restaurants & Bars",
+      "segment": "Food & Beverage",
+      "archetype": [
+        "Experience Designers"
+      ],
+      "color": "#F5A623",
+      "description": "Independent food establishments, Michelin-starred, local authentic",
+      "market_size": "\u20ac3.5T food service globally",
+      "business_model": "Direct consumer transactions, delivery partnerships, reservations platforms",
+      "outbound": [
+        "P040",
+        "P041",
+        "P051"
+      ],
+      "inbound": [
+        "P044",
+        "P051",
+        "P082",
+        "P063",
+        "P068",
+        "P069",
+        "P052",
+        "P070",
+        "P065"
+      ]
+    },
+    {
+      "id": "P058",
+      "name": "Theme Parks & Attractions",
+      "segment": "Attractions",
+      "archetype": [
+        "Experience Designers"
+      ],
+      "color": "#F5A623",
+      "description": "Disney, Universal, Legoland, local attractions",
+      "market_size": "\u20ac50B theme park industry",
+      "business_model": "Admission tickets, season passes, merchandise, food/beverage",
+      "outbound": [
+        "P015",
+        "P016",
+        "P040",
+        "P051"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P083",
+      "name": "Museum Networks",
+      "segment": "Cultural Attractions",
+      "archetype": [
+        "Experience Designers",
+        "Regulators & Standards Setters"
+      ],
+      "color": "#F5A623",
+      "description": "Public/private museums, cultural attractions, UNESCO partners",
+      "market_size": "\u20ac100B museum industry",
+      "business_model": "Admission fees, memberships, donations, gift shop revenue",
+      "outbound": [
+        "P040",
+        "P042",
+        "P051",
+        "P068"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P084",
+      "name": "National Parks",
+      "segment": "Nature Attractions",
+      "archetype": [
+        "Experience Designers",
+        "Regulators & Standards Setters"
+      ],
+      "color": "#F5A623",
+      "description": "Protected areas, eco-tourism destinations, government managed",
+      "market_size": "\u20ac600B eco-tourism market",
+      "business_model": "Entry fees, permits, guided tour revenue, conservation funding",
+      "outbound": [
+        "P040",
+        "P042",
+        "P051",
+        "P068"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P040",
+      "name": "Travelers (All)",
+      "segment": "Demand Generators",
+      "archetype": [
+        "Community Builders"
+      ],
+      "color": "#BD10E0",
+      "description": "All traveler types.",
+      "market_size": "",
+      "business_model": "",
+      "outbound": [
+        "P001",
+        "P005",
+        "P007",
+        "P015",
+        "P010",
+        "P153",
+        "P154",
+        "P156"
+      ],
+      "inbound": [
+        "P001",
+        "P002",
+        "P003",
+        "P004",
+        "P010",
+        "P061",
+        "P062",
+        "P060",
+        "P007",
+        "P008",
+        "P009",
+        "P045",
+        "P044",
+        "P055",
+        "P079",
+        "P041",
+        "P015",
+        "P016",
+        "P082",
+        "P047",
+        "P071",
+        "P022",
+        "P023",
+        "P024",
+        "P049",
+        "P054",
+        "P074",
+        "P090",
+        "P091",
+        "P092",
+        "P093",
+        "P094",
+        "P104",
+        "P105",
+        "P106",
+        "P025",
+        "P026",
+        "P027",
+        "P063",
+        "P064",
+        "P068",
+        "P069",
+        "P032",
+        "P033",
+        "P043",
+        "P058",
+        "P083",
+        "P084",
+        "P070",
+        "P085",
+        "P065",
+        "P072",
+        "P073",
+        "P154",
+        "P156",
+        "P159",
+        "P160",
+        "P161"
+      ]
+    },
+    {
+      "id": "P050",
+      "name": "Corporate Travel Departments",
+      "segment": "Corporate / B2B",
+      "archetype": [
+        "Infrastructure Integrators",
+        "Vertical Specialists"
+      ],
+      "color": "#1F8C7D",
+      "description": "Enterprise HR/Procurement, TMC users, policy enforcement",
+      "market_size": "\u20ac380B business travel spend",
+      "business_model": "Contracts with airlines/hotels, TMC agreements, compliance tools",
+      "outbound": [
+        "P003",
+        "P006",
+        "P032",
+        "P033",
+        "P041",
+        "P068",
+        "P069"
+      ],
+      "inbound": [
+        "P003",
+        "P005",
+        "P036",
+        "P037",
+        "P038",
+        "P007",
+        "P008",
+        "P006",
+        "P013",
+        "P014",
+        "P011",
+        "P012",
+        "P107",
+        "P018",
+        "P019",
+        "P017",
+        "P020",
+        "P031",
+        "P034",
+        "P035",
+        "P039",
+        "P048",
+        "P053",
+        "P021",
+        "P052",
+        "P086",
+        "P029",
+        "P030",
+        "P042",
+        "P057",
+        "P080"
+      ]
+    },
+    {
+      "id": "P052",
+      "name": "MICE Organizers",
+      "segment": "Corporate / B2B",
+      "archetype": [
+        "Vertical Specialists",
+        "Experience Designers"
+      ],
+      "color": "#E85D75",
+      "description": "Convention bureaus, PCO agencies, event management",
+      "market_size": "\u20ac1.3T MICE industry",
+      "business_model": "Event commissions (10-15%), DMC partnerships, speaker fees",
+      "outbound": [
+        "P050",
+        "P043",
+        "P068"
+      ],
+      "inbound": [
+        "P107",
+        "P078"
+      ]
+    },
+    {
+      "id": "P070",
+      "name": "Digital Nomad Communities",
+      "segment": "Community",
+      "archetype": [
+        "Community Builders"
+      ],
+      "color": "#BD10E0",
+      "description": "Remote workers, co-living, Workation ecosystem",
+      "market_size": "\u20ac35B digital nomad economy",
+      "business_model": "Community membership, co-living fees, partnership revenue",
+      "outbound": [
+        "P009",
+        "P040",
+        "P043",
+        "P044"
+      ],
+      "inbound": [
+        "P006",
+        "P104"
+      ]
+    },
+    {
+      "id": "P078",
+      "name": "Study Trip Organizers",
+      "segment": "Group Travel",
+      "archetype": [
+        "Vertical Specialists",
+        "Experience Designers"
+      ],
+      "color": "#E85D75",
+      "description": "Schools, universities, educational groups, learning travel",
+      "market_size": "\u20ac200B school group travel",
+      "business_model": "Group discounts (15-25%), educational partnerships, commission models",
+      "outbound": [
+        "P041",
+        "P051",
+        "P052",
+        "P068"
+      ],
+      "inbound": [
+        "P099"
+      ]
+    },
+    {
+      "id": "P085",
+      "name": "Gen Z/Millennial Travelers",
+      "segment": "Traveler Segment",
+      "archetype": [
+        "Community Builders"
+      ],
+      "color": "#BD10E0",
+      "description": "Young digital natives, 75% Airbnb users, sustainability-focused",
+      "market_size": "\u20ac500B+ spending",
+      "business_model": "Direct consumer spending, data value, community engagement",
+      "outbound": [
+        "P009",
+        "P025",
+        "P026",
+        "P040",
+        "P064",
+        "P069"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P086",
+      "name": "Business Travelers",
+      "segment": "Traveler Segment",
+      "archetype": [
+        "Community Builders"
+      ],
+      "color": "#BD10E0",
+      "description": "Corporate workers, frequent flyers, loyalty program members",
+      "market_size": "\u20ac380B business travel spend",
+      "business_model": "Premium pricing, loyalty programs, corporate contracts",
+      "outbound": [
+        "P001",
+        "P002",
+        "P005",
+        "P036",
+        "P038",
+        "P050"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P087",
+      "name": "Luxury Travelers",
+      "segment": "Traveler Segment",
+      "archetype": [
+        "Community Builders"
+      ],
+      "color": "#BD10E0",
+      "description": "High-net-worth individuals, exclusive experiences, concierge services",
+      "market_size": "\u20ac500B+ luxury travel market",
+      "business_model": "Premium service charges, exclusive access fees, high-margin bookings",
+      "outbound": [
+        "P005",
+        "P036",
+        "P037",
+        "P038",
+        "P071"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P028",
+      "name": "UNWTO (UN Tourism)",
+      "segment": "Regulation / Standards",
+      "archetype": [
+        "Regulators & Standards Setters"
+      ],
+      "color": "#7ED321",
+      "description": "United Nations tourism body, standard-setter, 193 member states",
+      "market_size": "Quasi-public",
+      "business_model": "Member contributions, technical assistance, research publications",
+      "outbound": [
+        "P024",
+        "P025",
+        "P026",
+        "P029",
+        "P030"
+      ],
+      "inbound": [
+        "P042",
+        "P072",
+        "P067",
+        "P095",
+        "P096",
+        "P097",
+        "P098",
+        "P066",
+        "P075",
+        "P076"
+      ]
+    },
+    {
+      "id": "P029",
+      "name": "EarthCheck Certification",
+      "segment": "Sustainability Certification",
+      "archetype": [
+        "Vertical Specialists",
+        "Regulators & Standards Setters"
+      ],
+      "color": "#E85D75",
+      "description": "Sustainability certification, 70+ countries, science-based standards",
+      "market_size": "\u20ac50M revenue (estimated)",
+      "business_model": "Certification fees (\u20ac500-5K annually), audit services, consulting",
+      "outbound": [
+        "P005",
+        "P044",
+        "P050"
+      ],
+      "inbound": [
+        "P028",
+        "P042",
+        "P067",
+        "P066",
+        "P077"
+      ]
+    },
+    {
+      "id": "P030",
+      "name": "Hotel Associations (AHLA, HOTREC)",
+      "segment": "Industry Association",
+      "archetype": [
+        "Regulators & Standards Setters"
+      ],
+      "color": "#7ED321",
+      "description": "Industry advocacy, lobbying, collective bargaining",
+      "market_size": "Membership-based",
+      "business_model": "Member dues (1-3% of revenue), training programs, event sponsorships",
+      "outbound": [
+        "P005",
+        "P044",
+        "P050"
+      ],
+      "inbound": [
+        "P028",
+        "P067",
+        "P066"
+      ]
+    },
+    {
+      "id": "P042",
+      "name": "DMOs (Destination Management Orgs)",
+      "segment": "Destination Management",
+      "archetype": [
+        "Vertical Specialists",
+        "Regulators & Standards Setters"
+      ],
+      "color": "#E85D75",
+      "description": "Tourism boards, destination promotion, UNWTO accredited",
+      "market_size": "Quasi-public funding",
+      "business_model": "Public funding, co-marketing revenue, tourism development fees",
+      "outbound": [
+        "P028",
+        "P029",
+        "P044",
+        "P050"
+      ],
+      "inbound": [
+        "P044",
+        "P083",
+        "P084",
+        "P072",
+        "P067",
+        "P095",
+        "P098"
+      ]
+    },
+    {
+      "id": "P065",
+      "name": "Local Residents",
+      "segment": "Community",
+      "archetype": [
+        "Community Builders"
+      ],
+      "color": "#BD10E0",
+      "description": "Community stakeholders, SME owners, cultural gatekeepers",
+      "market_size": "Community assets",
+      "business_model": "Local employment, business partnerships, cultural exchange",
+      "outbound": [
+        "P040",
+        "P043",
+        "P044"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P072",
+      "name": "UNESCO World Heritage Sites",
+      "segment": "Cultural Heritage",
+      "archetype": [
+        "Experience Designers",
+        "Regulators & Standards Setters"
+      ],
+      "color": "#F5A623",
+      "description": "Cultural heritage, 1,200+ sites, 180+ countries",
+      "market_size": "Global cultural assets",
+      "business_model": "Tourism revenue sharing, conservation funding, admission fees",
+      "outbound": [
+        "P028",
+        "P040",
+        "P042",
+        "P051"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P067",
+      "name": "Ministry of Tourism / Government",
+      "segment": "Government / Regulation",
+      "archetype": [
+        "Regulators & Standards Setters"
+      ],
+      "color": "#7ED321",
+      "description": "National/regional tourism authorities, policy makers",
+      "market_size": "Public sector",
+      "business_model": "Policy enforcement, destination investment, regulatory compliance",
+      "outbound": [
+        "P028",
+        "P029",
+        "P030",
+        "P042"
+      ],
+      "inbound": [
+        "P095",
+        "P096",
+        "P097",
+        "P098"
+      ]
+    },
+    {
+      "id": "P095",
+      "name": "ENIT (Italian National Tourist Board)",
+      "segment": "National DMO",
+      "archetype": [
+        "Vertical Specialists",
+        "Regulators & Standards Setters"
+      ],
+      "color": "#E85D75",
+      "description": "Italy tourism marketing, policy coordination, Italia.it portal",
+      "market_size": "",
+      "business_model": "",
+      "outbound": [
+        "P042",
+        "P067",
+        "P028"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P096",
+      "name": "VisitBritain / VisitEngland",
+      "segment": "National DMO",
+      "archetype": [
+        "Vertical Specialists",
+        "Regulators & Standards Setters"
+      ],
+      "color": "#E85D75",
+      "description": "UK tourism organizations, international + domestic focus",
+      "market_size": "",
+      "business_model": "",
+      "outbound": [
+        "P001",
+        "P002",
+        "P005",
+        "P028",
+        "P067"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P097",
+      "name": "German National Tourist Board (GNTB)",
+      "segment": "National DMO",
+      "archetype": [
+        "Vertical Specialists",
+        "Regulators & Standards Setters"
+      ],
+      "color": "#E85D75",
+      "description": "Germany destination promotion, sustainability + immersive tech",
+      "market_size": "",
+      "business_model": "",
+      "outbound": [
+        "P028",
+        "P067"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P098",
+      "name": "Atout France",
+      "segment": "National DMO",
+      "archetype": [
+        "Vertical Specialists",
+        "Regulators & Standards Setters"
+      ],
+      "color": "#E85D75",
+      "description": "French national DMO - comprehensive tourism development",
+      "market_size": "",
+      "business_model": "",
+      "outbound": [
+        "P028",
+        "P067",
+        "P042"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P056",
+      "name": "Hotel Schools (EHL, Les Roches)",
+      "segment": "Training / Education",
+      "archetype": [
+        "Vertical Specialists",
+        "Regulators & Standards Setters"
+      ],
+      "color": "#E85D75",
+      "description": "Industry-leading hospitality education, culinary, management programs",
+      "market_size": "\u20ac2B higher ed hospitality",
+      "business_model": "",
+      "outbound": [
+        "P005",
+        "P036",
+        "P037",
+        "P038",
+        "P056"
+      ],
+      "inbound": [
+        "P056",
+        "P100",
+        "P102"
+      ]
+    },
+    {
+      "id": "P057",
+      "name": "Indeed / LinkedIn Recruitment",
+      "segment": "Talent Acquisition",
+      "archetype": [
+        "Facilitators & Enablers"
+      ],
+      "color": "#4A90E2",
+      "description": "HR recruiting platforms, hospitality jobs, seasonal staffing",
+      "market_size": "\u20ac13B recruitment market",
+      "business_model": "",
+      "outbound": [
+        "P005",
+        "P036",
+        "P044",
+        "P050"
+      ],
+      "inbound": [
+        "P102"
+      ]
+    },
+    {
+      "id": "P099",
+      "name": "WFTGA (Tour Guide Training)",
+      "segment": "Training / Certification",
+      "archetype": [
+        "Vertical Specialists"
+      ],
+      "color": "#E85D75",
+      "description": "World Federation guide training and certification center",
+      "market_size": "",
+      "business_model": "",
+      "outbound": [
+        "P078"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P100",
+      "name": "EHL Hospitality Business School",
+      "segment": "Training / Education",
+      "archetype": [
+        "Vertical Specialists",
+        "Regulators & Standards Setters"
+      ],
+      "color": "#E85D75",
+      "description": "Prestige hotel management school, global alumni network",
+      "market_size": "",
+      "business_model": "",
+      "outbound": [
+        "P005",
+        "P036",
+        "P037",
+        "P038",
+        "P056"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P101",
+      "name": "Les Roches Hospitality School",
+      "segment": "Training / Education",
+      "archetype": [
+        "Vertical Specialists",
+        "Regulators & Standards Setters"
+      ],
+      "color": "#E85D75",
+      "description": "Luxury hospitality education specialization",
+      "market_size": "",
+      "business_model": "",
+      "outbound": [
+        "P005",
+        "P071"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P102",
+      "name": "CoolWorks Seasonal Platform",
+      "segment": "Seasonal Labor",
+      "archetype": [
+        "Facilitators & Enablers"
+      ],
+      "color": "#4A90E2",
+      "description": "Outdoor/adventure seasonal job marketplace",
+      "market_size": "",
+      "business_model": "",
+      "outbound": [
+        "P056",
+        "P057"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P066",
+      "name": "Environmental NGOs",
+      "segment": "Advocacy / Sustainability",
+      "archetype": [
+        "Regulators & Standards Setters"
+      ],
+      "color": "#7ED321",
+      "description": "Greenpeace, WWF, tourism sustainability advocates",
+      "market_size": "",
+      "business_model": "",
+      "outbound": [
+        "P028",
+        "P029",
+        "P030"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P075",
+      "name": "Tour Operator Associations",
+      "segment": "Industry Association",
+      "archetype": [
+        "Regulators & Standards Setters"
+      ],
+      "color": "#7ED321",
+      "description": "Industry bodies, collective bargaining, standard setting",
+      "market_size": "",
+      "business_model": "",
+      "outbound": [
+        "P013",
+        "P014",
+        "P028"
+      ],
+      "inbound": [
+        "P013",
+        "P014"
+      ]
+    },
+    {
+      "id": "P076",
+      "name": "Travel Agent Federations",
+      "segment": "Industry Association",
+      "archetype": [
+        "Vertical Specialists",
+        "Regulators & Standards Setters"
+      ],
+      "color": "#E85D75",
+      "description": "ATTA, IATA, collective lobbying, professional standards",
+      "market_size": "",
+      "business_model": "",
+      "outbound": [
+        "P013",
+        "P041",
+        "P028"
+      ],
+      "inbound": [
+        "P013"
+      ]
+    },
+    {
+      "id": "P077",
+      "name": "Green Key Certification",
+      "segment": "Sustainability Certification",
+      "archetype": [
+        "Vertical Specialists",
+        "Regulators & Standards Setters"
+      ],
+      "color": "#E85D75",
+      "description": "Eco-hotel certification, sustainability standards, 3K+ certified",
+      "market_size": "\u20ac50M market (estimated)",
+      "business_model": "",
+      "outbound": [
+        "P005",
+        "P029",
+        "P044"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P073",
+      "name": "Travel Insurance Aggregators",
+      "segment": "Insurance / Comparison",
+      "archetype": [
+        "Facilitators & Enablers"
+      ],
+      "color": "#4A90E2",
+      "description": "Compare travel insurance, multiple providers, customer protection",
+      "market_size": "\u20ac50B insurance market",
+      "business_model": "",
+      "outbound": [
+        "P007",
+        "P008",
+        "P023",
+        "P040"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P080",
+      "name": "Concur / SAP Travel",
+      "segment": "Corporate Travel / Expense Management",
+      "archetype": [
+        "Facilitators & Enablers"
+      ],
+      "color": "#4A90E2",
+      "description": "Corporate travel expense management, policy enforcement",
+      "market_size": "\u20ac500M market (estimated)",
+      "business_model": "",
+      "outbound": [
+        "P050",
+        "P068"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P153",
+      "name": "Trip.com Group",
+      "segment": "OTA / Infrastructure",
+      "archetype": [
+        "Infrastructure Integrators"
+      ],
+      "color": "#1F8C7D",
+      "description": "Leading global travel service provider comprising Trip.com, Ctrip, Skyscanner, and Qunar.",
+      "market_size": "\u20ac5.9B revenue (2023)",
+      "business_model": "Accommodation reservation, transportation ticketing, packaged tours, corporate travel management.",
+      "outbound": [
+        "P007",
+        "P001",
+        "P005",
+        "P015"
+      ],
+      "inbound": [
+        "P040",
+        "P155",
+        "P159",
+        "P160",
+        "P161"
+      ]
+    },
+    {
+      "id": "P154",
+      "name": "Virgin Galactic",
+      "segment": "Space Tourism",
+      "archetype": [
+        "Experience Designers"
+      ],
+      "color": "#F5A623",
+      "description": "Aerospace and space travel company offering suborbital spaceflights to space tourists.",
+      "market_size": "Emerging Market",
+      "business_model": "Ticket sales for spaceflights (50k/seat), research payloads.",
+      "outbound": [
+        "P040",
+        "P025"
+      ],
+      "inbound": [
+        "P040"
+      ]
+    },
+    {
+      "id": "P155",
+      "name": "Hopper",
+      "segment": "Travel Fintech",
+      "archetype": [
+        "Facilitators & Enablers"
+      ],
+      "color": "#4A90E2",
+      "description": "Mobile-first travel marketplace focused on price prediction and financial products.",
+      "market_size": "B Valuation",
+      "business_model": "Price freeze, cancel for any reason, flight disruption guarantee, commission.",
+      "outbound": [
+        "P007",
+        "P001",
+        "P153"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P156",
+      "name": "BlaBlaCar",
+      "segment": "Shared Mobility",
+      "archetype": [
+        "Community Builders"
+      ],
+      "color": "#BD10E0",
+      "description": "World's leading community-based travel network enabling over 90 million members to share a ride.",
+      "market_size": "\u20ac2B Valuation",
+      "business_model": "Service fees from passengers, bus marketplace.",
+      "outbound": [
+        "P040",
+        "P114",
+        "P010"
+      ],
+      "inbound": [
+        "P114",
+        "P040"
+      ]
+    },
+    {
+      "id": "P157",
+      "name": "Revolut",
+      "segment": "Banking / Travel",
+      "archetype": [
+        "Facilitators & Enablers"
+      ],
+      "color": "#4A90E2",
+      "description": "Global financial superapp offering currency exchange, travel insurance, and 'Stays' booking.",
+      "market_size": "\u20ac1.8B Revenue",
+      "business_model": "Subscription fees, interchange fees, commission on bookings.",
+      "outbound": [
+        "P007",
+        "P001",
+        "P010",
+        "P108"
+      ],
+      "inbound": [
+        "P108",
+        "P109",
+        "P110",
+        "P111",
+        "P158"
+      ]
+    },
+    {
+      "id": "P158",
+      "name": "Priority Pass (Collinson)",
+      "segment": "Airport Services",
+      "archetype": [
+        "Vertical Specialists"
+      ],
+      "color": "#E85D75",
+      "description": "Market-leading airport lounge access program.",
+      "market_size": "N/A",
+      "business_model": "Membership fees, bank partnerships (B2B2C).",
+      "outbound": [
+        "P001",
+        "P157",
+        "P108",
+        "P005"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P159",
+      "name": "Trenitalia",
+      "segment": "Rail Transport",
+      "archetype": [
+        "Infrastructure Integrators"
+      ],
+      "color": "#1F8C7D",
+      "description": "Primary train operator in Italy, owned by Ferrovie dello Stato Italiane.",
+      "market_size": "\u20ac6B Revenue",
+      "business_model": "Ticket sales, regional subsidies, freight.",
+      "outbound": [
+        "P114",
+        "P040",
+        "P153",
+        "P108"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P160",
+      "name": "Italo (NTV)",
+      "segment": "Rail Transport",
+      "archetype": [
+        "Vertical Specialists"
+      ],
+      "color": "#E85D75",
+      "description": "Private high-speed rail operator in Italy.",
+      "market_size": "\u20ac1B Revenue",
+      "business_model": "Ticket sales, ancillary services.",
+      "outbound": [
+        "P040",
+        "P153",
+        "P108"
+      ],
+      "inbound": []
+    },
+    {
+      "id": "P161",
+      "name": "ITA Airways",
+      "segment": "Long-Distance Transport",
+      "archetype": [
+        "Infrastructure Integrators"
+      ],
+      "color": "#1F8C7D",
+      "description": "Italy's flag carrier airline.",
+      "market_size": "\u20ac2.4B Revenue",
+      "business_model": "Passenger and cargo air transport.",
+      "outbound": [
+        "P001",
+        "P040",
+        "P153",
+        "P005"
+      ],
+      "inbound": []
+    }
+  ],
+  "links": [
+    {
+      "source": "P001",
+      "target": "P002",
+      "type": "outbound"
+    },
+    {
+      "source": "P001",
+      "target": "P003",
+      "type": "outbound"
+    },
+    {
+      "source": "P001",
+      "target": "P004",
+      "type": "outbound"
+    },
+    {
+      "source": "P001",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P001",
+      "target": "P068",
+      "type": "outbound"
+    },
+    {
+      "source": "P002",
+      "target": "P001",
+      "type": "outbound"
+    },
+    {
+      "source": "P002",
+      "target": "P003",
+      "type": "outbound"
+    },
+    {
+      "source": "P002",
+      "target": "P005",
+      "type": "outbound"
+    },
+    {
+      "source": "P002",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P002",
+      "target": "P068",
+      "type": "outbound"
+    },
+    {
+      "source": "P003",
+      "target": "P001",
+      "type": "outbound"
+    },
+    {
+      "source": "P003",
+      "target": "P002",
+      "type": "outbound"
+    },
+    {
+      "source": "P003",
+      "target": "P005",
+      "type": "outbound"
+    },
+    {
+      "source": "P003",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P003",
+      "target": "P041",
+      "type": "outbound"
+    },
+    {
+      "source": "P003",
+      "target": "P044",
+      "type": "outbound"
+    },
+    {
+      "source": "P003",
+      "target": "P050",
+      "type": "outbound"
+    },
+    {
+      "source": "P004",
+      "target": "P001",
+      "type": "outbound"
+    },
+    {
+      "source": "P004",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P004",
+      "target": "P068",
+      "type": "outbound"
+    },
+    {
+      "source": "P010",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P010",
+      "target": "P041",
+      "type": "outbound"
+    },
+    {
+      "source": "P010",
+      "target": "P068",
+      "type": "outbound"
+    },
+    {
+      "source": "P010",
+      "target": "P069",
+      "type": "outbound"
+    },
+    {
+      "source": "P061",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P061",
+      "target": "P068",
+      "type": "outbound"
+    },
+    {
+      "source": "P062",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P112",
+      "target": "P010",
+      "type": "outbound"
+    },
+    {
+      "source": "P112",
+      "target": "P062",
+      "type": "outbound"
+    },
+    {
+      "source": "P113",
+      "target": "P062",
+      "type": "outbound"
+    },
+    {
+      "source": "P114",
+      "target": "P010",
+      "type": "outbound"
+    },
+    {
+      "source": "P114",
+      "target": "P156",
+      "type": "outbound"
+    },
+    {
+      "source": "P114",
+      "target": "P012",
+      "type": "outbound"
+    },
+    {
+      "source": "P059",
+      "target": "P001",
+      "type": "outbound"
+    },
+    {
+      "source": "P059",
+      "target": "P002",
+      "type": "outbound"
+    },
+    {
+      "source": "P059",
+      "target": "P007",
+      "type": "outbound"
+    },
+    {
+      "source": "P059",
+      "target": "P008",
+      "type": "outbound"
+    },
+    {
+      "source": "P059",
+      "target": "P046",
+      "type": "outbound"
+    },
+    {
+      "source": "P059",
+      "target": "P068",
+      "type": "outbound"
+    },
+    {
+      "source": "P060",
+      "target": "P007",
+      "type": "outbound"
+    },
+    {
+      "source": "P060",
+      "target": "P008",
+      "type": "outbound"
+    },
+    {
+      "source": "P060",
+      "target": "P014",
+      "type": "outbound"
+    },
+    {
+      "source": "P060",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P060",
+      "target": "P051",
+      "type": "outbound"
+    },
+    {
+      "source": "P115",
+      "target": "P010",
+      "type": "outbound"
+    },
+    {
+      "source": "P115",
+      "target": "P062",
+      "type": "outbound"
+    },
+    {
+      "source": "P115",
+      "target": "P113",
+      "type": "outbound"
+    },
+    {
+      "source": "P116",
+      "target": "P001",
+      "type": "outbound"
+    },
+    {
+      "source": "P116",
+      "target": "P112",
+      "type": "outbound"
+    },
+    {
+      "source": "P116",
+      "target": "P113",
+      "type": "outbound"
+    },
+    {
+      "source": "P116",
+      "target": "P114",
+      "type": "outbound"
+    },
+    {
+      "source": "P005",
+      "target": "P003",
+      "type": "outbound"
+    },
+    {
+      "source": "P005",
+      "target": "P006",
+      "type": "outbound"
+    },
+    {
+      "source": "P005",
+      "target": "P044",
+      "type": "outbound"
+    },
+    {
+      "source": "P005",
+      "target": "P050",
+      "type": "outbound"
+    },
+    {
+      "source": "P005",
+      "target": "P051",
+      "type": "outbound"
+    },
+    {
+      "source": "P036",
+      "target": "P003",
+      "type": "outbound"
+    },
+    {
+      "source": "P036",
+      "target": "P006",
+      "type": "outbound"
+    },
+    {
+      "source": "P036",
+      "target": "P044",
+      "type": "outbound"
+    },
+    {
+      "source": "P036",
+      "target": "P050",
+      "type": "outbound"
+    },
+    {
+      "source": "P036",
+      "target": "P051",
+      "type": "outbound"
+    },
+    {
+      "source": "P037",
+      "target": "P003",
+      "type": "outbound"
+    },
+    {
+      "source": "P037",
+      "target": "P006",
+      "type": "outbound"
+    },
+    {
+      "source": "P037",
+      "target": "P044",
+      "type": "outbound"
+    },
+    {
+      "source": "P037",
+      "target": "P050",
+      "type": "outbound"
+    },
+    {
+      "source": "P037",
+      "target": "P051",
+      "type": "outbound"
+    },
+    {
+      "source": "P038",
+      "target": "P003",
+      "type": "outbound"
+    },
+    {
+      "source": "P038",
+      "target": "P006",
+      "type": "outbound"
+    },
+    {
+      "source": "P038",
+      "target": "P044",
+      "type": "outbound"
+    },
+    {
+      "source": "P038",
+      "target": "P050",
+      "type": "outbound"
+    },
+    {
+      "source": "P038",
+      "target": "P051",
+      "type": "outbound"
+    },
+    {
+      "source": "P007",
+      "target": "P003",
+      "type": "outbound"
+    },
+    {
+      "source": "P007",
+      "target": "P005",
+      "type": "outbound"
+    },
+    {
+      "source": "P007",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P007",
+      "target": "P041",
+      "type": "outbound"
+    },
+    {
+      "source": "P007",
+      "target": "P050",
+      "type": "outbound"
+    },
+    {
+      "source": "P007",
+      "target": "P068",
+      "type": "outbound"
+    },
+    {
+      "source": "P007",
+      "target": "P069",
+      "type": "outbound"
+    },
+    {
+      "source": "P008",
+      "target": "P003",
+      "type": "outbound"
+    },
+    {
+      "source": "P008",
+      "target": "P005",
+      "type": "outbound"
+    },
+    {
+      "source": "P008",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P008",
+      "target": "P041",
+      "type": "outbound"
+    },
+    {
+      "source": "P008",
+      "target": "P050",
+      "type": "outbound"
+    },
+    {
+      "source": "P008",
+      "target": "P068",
+      "type": "outbound"
+    },
+    {
+      "source": "P009",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P009",
+      "target": "P041",
+      "type": "outbound"
+    },
+    {
+      "source": "P009",
+      "target": "P051",
+      "type": "outbound"
+    },
+    {
+      "source": "P009",
+      "target": "P068",
+      "type": "outbound"
+    },
+    {
+      "source": "P009",
+      "target": "P069",
+      "type": "outbound"
+    },
+    {
+      "source": "P045",
+      "target": "P008",
+      "type": "outbound"
+    },
+    {
+      "source": "P045",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P045",
+      "target": "P068",
+      "type": "outbound"
+    },
+    {
+      "source": "P044",
+      "target": "P003",
+      "type": "outbound"
+    },
+    {
+      "source": "P044",
+      "target": "P006",
+      "type": "outbound"
+    },
+    {
+      "source": "P044",
+      "target": "P013",
+      "type": "outbound"
+    },
+    {
+      "source": "P044",
+      "target": "P017",
+      "type": "outbound"
+    },
+    {
+      "source": "P044",
+      "target": "P018",
+      "type": "outbound"
+    },
+    {
+      "source": "P044",
+      "target": "P019",
+      "type": "outbound"
+    },
+    {
+      "source": "P044",
+      "target": "P021",
+      "type": "outbound"
+    },
+    {
+      "source": "P044",
+      "target": "P031",
+      "type": "outbound"
+    },
+    {
+      "source": "P044",
+      "target": "P034",
+      "type": "outbound"
+    },
+    {
+      "source": "P044",
+      "target": "P035",
+      "type": "outbound"
+    },
+    {
+      "source": "P044",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P044",
+      "target": "P042",
+      "type": "outbound"
+    },
+    {
+      "source": "P044",
+      "target": "P043",
+      "type": "outbound"
+    },
+    {
+      "source": "P055",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P055",
+      "target": "P041",
+      "type": "outbound"
+    },
+    {
+      "source": "P055",
+      "target": "P068",
+      "type": "outbound"
+    },
+    {
+      "source": "P079",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P079",
+      "target": "P055",
+      "type": "outbound"
+    },
+    {
+      "source": "P079",
+      "target": "P068",
+      "type": "outbound"
+    },
+    {
+      "source": "P006",
+      "target": "P005",
+      "type": "outbound"
+    },
+    {
+      "source": "P006",
+      "target": "P044",
+      "type": "outbound"
+    },
+    {
+      "source": "P006",
+      "target": "P050",
+      "type": "outbound"
+    },
+    {
+      "source": "P006",
+      "target": "P070",
+      "type": "outbound"
+    },
+    {
+      "source": "P013",
+      "target": "P003",
+      "type": "outbound"
+    },
+    {
+      "source": "P013",
+      "target": "P005",
+      "type": "outbound"
+    },
+    {
+      "source": "P013",
+      "target": "P044",
+      "type": "outbound"
+    },
+    {
+      "source": "P013",
+      "target": "P050",
+      "type": "outbound"
+    },
+    {
+      "source": "P013",
+      "target": "P075",
+      "type": "outbound"
+    },
+    {
+      "source": "P013",
+      "target": "P076",
+      "type": "outbound"
+    },
+    {
+      "source": "P014",
+      "target": "P003",
+      "type": "outbound"
+    },
+    {
+      "source": "P014",
+      "target": "P001",
+      "type": "outbound"
+    },
+    {
+      "source": "P014",
+      "target": "P002",
+      "type": "outbound"
+    },
+    {
+      "source": "P014",
+      "target": "P013",
+      "type": "outbound"
+    },
+    {
+      "source": "P014",
+      "target": "P044",
+      "type": "outbound"
+    },
+    {
+      "source": "P014",
+      "target": "P050",
+      "type": "outbound"
+    },
+    {
+      "source": "P014",
+      "target": "P075",
+      "type": "outbound"
+    },
+    {
+      "source": "P041",
+      "target": "P003",
+      "type": "outbound"
+    },
+    {
+      "source": "P041",
+      "target": "P007",
+      "type": "outbound"
+    },
+    {
+      "source": "P041",
+      "target": "P008",
+      "type": "outbound"
+    },
+    {
+      "source": "P041",
+      "target": "P013",
+      "type": "outbound"
+    },
+    {
+      "source": "P041",
+      "target": "P014",
+      "type": "outbound"
+    },
+    {
+      "source": "P041",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P041",
+      "target": "P068",
+      "type": "outbound"
+    },
+    {
+      "source": "P046",
+      "target": "P001",
+      "type": "outbound"
+    },
+    {
+      "source": "P046",
+      "target": "P002",
+      "type": "outbound"
+    },
+    {
+      "source": "P046",
+      "target": "P007",
+      "type": "outbound"
+    },
+    {
+      "source": "P046",
+      "target": "P008",
+      "type": "outbound"
+    },
+    {
+      "source": "P046",
+      "target": "P012",
+      "type": "outbound"
+    },
+    {
+      "source": "P011",
+      "target": "P005",
+      "type": "outbound"
+    },
+    {
+      "source": "P011",
+      "target": "P007",
+      "type": "outbound"
+    },
+    {
+      "source": "P011",
+      "target": "P008",
+      "type": "outbound"
+    },
+    {
+      "source": "P011",
+      "target": "P009",
+      "type": "outbound"
+    },
+    {
+      "source": "P011",
+      "target": "P050",
+      "type": "outbound"
+    },
+    {
+      "source": "P012",
+      "target": "P007",
+      "type": "outbound"
+    },
+    {
+      "source": "P012",
+      "target": "P008",
+      "type": "outbound"
+    },
+    {
+      "source": "P012",
+      "target": "P050",
+      "type": "outbound"
+    },
+    {
+      "source": "P015",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P015",
+      "target": "P041",
+      "type": "outbound"
+    },
+    {
+      "source": "P015",
+      "target": "P051",
+      "type": "outbound"
+    },
+    {
+      "source": "P015",
+      "target": "P068",
+      "type": "outbound"
+    },
+    {
+      "source": "P016",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P016",
+      "target": "P041",
+      "type": "outbound"
+    },
+    {
+      "source": "P016",
+      "target": "P051",
+      "type": "outbound"
+    },
+    {
+      "source": "P016",
+      "target": "P068",
+      "type": "outbound"
+    },
+    {
+      "source": "P051",
+      "target": "P013",
+      "type": "outbound"
+    },
+    {
+      "source": "P051",
+      "target": "P014",
+      "type": "outbound"
+    },
+    {
+      "source": "P051",
+      "target": "P043",
+      "type": "outbound"
+    },
+    {
+      "source": "P051",
+      "target": "P044",
+      "type": "outbound"
+    },
+    {
+      "source": "P051",
+      "target": "P047",
+      "type": "outbound"
+    },
+    {
+      "source": "P051",
+      "target": "P068",
+      "type": "outbound"
+    },
+    {
+      "source": "P081",
+      "target": "P001",
+      "type": "outbound"
+    },
+    {
+      "source": "P081",
+      "target": "P002",
+      "type": "outbound"
+    },
+    {
+      "source": "P081",
+      "target": "P004",
+      "type": "outbound"
+    },
+    {
+      "source": "P081",
+      "target": "P005",
+      "type": "outbound"
+    },
+    {
+      "source": "P081",
+      "target": "P046",
+      "type": "outbound"
+    },
+    {
+      "source": "P082",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P082",
+      "target": "P043",
+      "type": "outbound"
+    },
+    {
+      "source": "P082",
+      "target": "P051",
+      "type": "outbound"
+    },
+    {
+      "source": "P047",
+      "target": "P015",
+      "type": "outbound"
+    },
+    {
+      "source": "P047",
+      "target": "P016",
+      "type": "outbound"
+    },
+    {
+      "source": "P047",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P047",
+      "target": "P051",
+      "type": "outbound"
+    },
+    {
+      "source": "P071",
+      "target": "P005",
+      "type": "outbound"
+    },
+    {
+      "source": "P071",
+      "target": "P036",
+      "type": "outbound"
+    },
+    {
+      "source": "P071",
+      "target": "P037",
+      "type": "outbound"
+    },
+    {
+      "source": "P071",
+      "target": "P038",
+      "type": "outbound"
+    },
+    {
+      "source": "P071",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P022",
+      "target": "P007",
+      "type": "outbound"
+    },
+    {
+      "source": "P022",
+      "target": "P008",
+      "type": "outbound"
+    },
+    {
+      "source": "P022",
+      "target": "P009",
+      "type": "outbound"
+    },
+    {
+      "source": "P022",
+      "target": "P014",
+      "type": "outbound"
+    },
+    {
+      "source": "P022",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P022",
+      "target": "P068",
+      "type": "outbound"
+    },
+    {
+      "source": "P023",
+      "target": "P007",
+      "type": "outbound"
+    },
+    {
+      "source": "P023",
+      "target": "P008",
+      "type": "outbound"
+    },
+    {
+      "source": "P023",
+      "target": "P014",
+      "type": "outbound"
+    },
+    {
+      "source": "P023",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P023",
+      "target": "P068",
+      "type": "outbound"
+    },
+    {
+      "source": "P024",
+      "target": "P007",
+      "type": "outbound"
+    },
+    {
+      "source": "P024",
+      "target": "P008",
+      "type": "outbound"
+    },
+    {
+      "source": "P024",
+      "target": "P009",
+      "type": "outbound"
+    },
+    {
+      "source": "P024",
+      "target": "P010",
+      "type": "outbound"
+    },
+    {
+      "source": "P024",
+      "target": "P014",
+      "type": "outbound"
+    },
+    {
+      "source": "P024",
+      "target": "P015",
+      "type": "outbound"
+    },
+    {
+      "source": "P024",
+      "target": "P016",
+      "type": "outbound"
+    },
+    {
+      "source": "P024",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P024",
+      "target": "P068",
+      "type": "outbound"
+    },
+    {
+      "source": "P049",
+      "target": "P007",
+      "type": "outbound"
+    },
+    {
+      "source": "P049",
+      "target": "P008",
+      "type": "outbound"
+    },
+    {
+      "source": "P049",
+      "target": "P014",
+      "type": "outbound"
+    },
+    {
+      "source": "P049",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P054",
+      "target": "P007",
+      "type": "outbound"
+    },
+    {
+      "source": "P054",
+      "target": "P008",
+      "type": "outbound"
+    },
+    {
+      "source": "P054",
+      "target": "P009",
+      "type": "outbound"
+    },
+    {
+      "source": "P054",
+      "target": "P015",
+      "type": "outbound"
+    },
+    {
+      "source": "P054",
+      "target": "P016",
+      "type": "outbound"
+    },
+    {
+      "source": "P054",
+      "target": "P024",
+      "type": "outbound"
+    },
+    {
+      "source": "P054",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P074",
+      "target": "P001",
+      "type": "outbound"
+    },
+    {
+      "source": "P074",
+      "target": "P002",
+      "type": "outbound"
+    },
+    {
+      "source": "P074",
+      "target": "P007",
+      "type": "outbound"
+    },
+    {
+      "source": "P074",
+      "target": "P008",
+      "type": "outbound"
+    },
+    {
+      "source": "P074",
+      "target": "P010",
+      "type": "outbound"
+    },
+    {
+      "source": "P074",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P088",
+      "target": "P007",
+      "type": "outbound"
+    },
+    {
+      "source": "P088",
+      "target": "P008",
+      "type": "outbound"
+    },
+    {
+      "source": "P088",
+      "target": "P009",
+      "type": "outbound"
+    },
+    {
+      "source": "P088",
+      "target": "P024",
+      "type": "outbound"
+    },
+    {
+      "source": "P088",
+      "target": "P054",
+      "type": "outbound"
+    },
+    {
+      "source": "P089",
+      "target": "P007",
+      "type": "outbound"
+    },
+    {
+      "source": "P089",
+      "target": "P008",
+      "type": "outbound"
+    },
+    {
+      "source": "P089",
+      "target": "P023",
+      "type": "outbound"
+    },
+    {
+      "source": "P089",
+      "target": "P024",
+      "type": "outbound"
+    },
+    {
+      "source": "P090",
+      "target": "P007",
+      "type": "outbound"
+    },
+    {
+      "source": "P090",
+      "target": "P008",
+      "type": "outbound"
+    },
+    {
+      "source": "P090",
+      "target": "P009",
+      "type": "outbound"
+    },
+    {
+      "source": "P090",
+      "target": "P014",
+      "type": "outbound"
+    },
+    {
+      "source": "P090",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P091",
+      "target": "P007",
+      "type": "outbound"
+    },
+    {
+      "source": "P091",
+      "target": "P008",
+      "type": "outbound"
+    },
+    {
+      "source": "P091",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P092",
+      "target": "P089",
+      "type": "outbound"
+    },
+    {
+      "source": "P092",
+      "target": "P090",
+      "type": "outbound"
+    },
+    {
+      "source": "P092",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P093",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P094",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P103",
+      "target": "P007",
+      "type": "outbound"
+    },
+    {
+      "source": "P103",
+      "target": "P008",
+      "type": "outbound"
+    },
+    {
+      "source": "P103",
+      "target": "P023",
+      "type": "outbound"
+    },
+    {
+      "source": "P103",
+      "target": "P024",
+      "type": "outbound"
+    },
+    {
+      "source": "P104",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P104",
+      "target": "P070",
+      "type": "outbound"
+    },
+    {
+      "source": "P105",
+      "target": "P001",
+      "type": "outbound"
+    },
+    {
+      "source": "P105",
+      "target": "P002",
+      "type": "outbound"
+    },
+    {
+      "source": "P105",
+      "target": "P005",
+      "type": "outbound"
+    },
+    {
+      "source": "P105",
+      "target": "P007",
+      "type": "outbound"
+    },
+    {
+      "source": "P105",
+      "target": "P008",
+      "type": "outbound"
+    },
+    {
+      "source": "P105",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P106",
+      "target": "P001",
+      "type": "outbound"
+    },
+    {
+      "source": "P106",
+      "target": "P002",
+      "type": "outbound"
+    },
+    {
+      "source": "P106",
+      "target": "P005",
+      "type": "outbound"
+    },
+    {
+      "source": "P106",
+      "target": "P007",
+      "type": "outbound"
+    },
+    {
+      "source": "P106",
+      "target": "P008",
+      "type": "outbound"
+    },
+    {
+      "source": "P106",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P106",
+      "target": "P090",
+      "type": "outbound"
+    },
+    {
+      "source": "P107",
+      "target": "P005",
+      "type": "outbound"
+    },
+    {
+      "source": "P107",
+      "target": "P041",
+      "type": "outbound"
+    },
+    {
+      "source": "P107",
+      "target": "P050",
+      "type": "outbound"
+    },
+    {
+      "source": "P107",
+      "target": "P052",
+      "type": "outbound"
+    },
+    {
+      "source": "P108",
+      "target": "P007",
+      "type": "outbound"
+    },
+    {
+      "source": "P108",
+      "target": "P001",
+      "type": "outbound"
+    },
+    {
+      "source": "P108",
+      "target": "P157",
+      "type": "outbound"
+    },
+    {
+      "source": "P109",
+      "target": "P007",
+      "type": "outbound"
+    },
+    {
+      "source": "P109",
+      "target": "P001",
+      "type": "outbound"
+    },
+    {
+      "source": "P109",
+      "target": "P157",
+      "type": "outbound"
+    },
+    {
+      "source": "P110",
+      "target": "P007",
+      "type": "outbound"
+    },
+    {
+      "source": "P110",
+      "target": "P001",
+      "type": "outbound"
+    },
+    {
+      "source": "P110",
+      "target": "P157",
+      "type": "outbound"
+    },
+    {
+      "source": "P111",
+      "target": "P007",
+      "type": "outbound"
+    },
+    {
+      "source": "P111",
+      "target": "P001",
+      "type": "outbound"
+    },
+    {
+      "source": "P111",
+      "target": "P157",
+      "type": "outbound"
+    },
+    {
+      "source": "P025",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P025",
+      "target": "P041",
+      "type": "outbound"
+    },
+    {
+      "source": "P025",
+      "target": "P068",
+      "type": "outbound"
+    },
+    {
+      "source": "P025",
+      "target": "P069",
+      "type": "outbound"
+    },
+    {
+      "source": "P026",
+      "target": "P007",
+      "type": "outbound"
+    },
+    {
+      "source": "P026",
+      "target": "P008",
+      "type": "outbound"
+    },
+    {
+      "source": "P026",
+      "target": "P015",
+      "type": "outbound"
+    },
+    {
+      "source": "P026",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P026",
+      "target": "P068",
+      "type": "outbound"
+    },
+    {
+      "source": "P027",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P027",
+      "target": "P041",
+      "type": "outbound"
+    },
+    {
+      "source": "P027",
+      "target": "P068",
+      "type": "outbound"
+    },
+    {
+      "source": "P063",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P063",
+      "target": "P043",
+      "type": "outbound"
+    },
+    {
+      "source": "P063",
+      "target": "P044",
+      "type": "outbound"
+    },
+    {
+      "source": "P063",
+      "target": "P068",
+      "type": "outbound"
+    },
+    {
+      "source": "P064",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P064",
+      "target": "P041",
+      "type": "outbound"
+    },
+    {
+      "source": "P068",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P068",
+      "target": "P041",
+      "type": "outbound"
+    },
+    {
+      "source": "P068",
+      "target": "P043",
+      "type": "outbound"
+    },
+    {
+      "source": "P068",
+      "target": "P044",
+      "type": "outbound"
+    },
+    {
+      "source": "P068",
+      "target": "P051",
+      "type": "outbound"
+    },
+    {
+      "source": "P069",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P069",
+      "target": "P043",
+      "type": "outbound"
+    },
+    {
+      "source": "P069",
+      "target": "P044",
+      "type": "outbound"
+    },
+    {
+      "source": "P018",
+      "target": "P005",
+      "type": "outbound"
+    },
+    {
+      "source": "P018",
+      "target": "P044",
+      "type": "outbound"
+    },
+    {
+      "source": "P018",
+      "target": "P050",
+      "type": "outbound"
+    },
+    {
+      "source": "P018",
+      "target": "P051",
+      "type": "outbound"
+    },
+    {
+      "source": "P019",
+      "target": "P005",
+      "type": "outbound"
+    },
+    {
+      "source": "P019",
+      "target": "P044",
+      "type": "outbound"
+    },
+    {
+      "source": "P019",
+      "target": "P050",
+      "type": "outbound"
+    },
+    {
+      "source": "P019",
+      "target": "P051",
+      "type": "outbound"
+    },
+    {
+      "source": "P017",
+      "target": "P005",
+      "type": "outbound"
+    },
+    {
+      "source": "P017",
+      "target": "P044",
+      "type": "outbound"
+    },
+    {
+      "source": "P017",
+      "target": "P050",
+      "type": "outbound"
+    },
+    {
+      "source": "P017",
+      "target": "P068",
+      "type": "outbound"
+    },
+    {
+      "source": "P020",
+      "target": "P003",
+      "type": "outbound"
+    },
+    {
+      "source": "P020",
+      "target": "P005",
+      "type": "outbound"
+    },
+    {
+      "source": "P020",
+      "target": "P017",
+      "type": "outbound"
+    },
+    {
+      "source": "P020",
+      "target": "P018",
+      "type": "outbound"
+    },
+    {
+      "source": "P020",
+      "target": "P019",
+      "type": "outbound"
+    },
+    {
+      "source": "P020",
+      "target": "P044",
+      "type": "outbound"
+    },
+    {
+      "source": "P020",
+      "target": "P050",
+      "type": "outbound"
+    },
+    {
+      "source": "P020",
+      "target": "P051",
+      "type": "outbound"
+    },
+    {
+      "source": "P031",
+      "target": "P005",
+      "type": "outbound"
+    },
+    {
+      "source": "P031",
+      "target": "P044",
+      "type": "outbound"
+    },
+    {
+      "source": "P031",
+      "target": "P050",
+      "type": "outbound"
+    },
+    {
+      "source": "P031",
+      "target": "P068",
+      "type": "outbound"
+    },
+    {
+      "source": "P032",
+      "target": "P001",
+      "type": "outbound"
+    },
+    {
+      "source": "P032",
+      "target": "P002",
+      "type": "outbound"
+    },
+    {
+      "source": "P032",
+      "target": "P005",
+      "type": "outbound"
+    },
+    {
+      "source": "P032",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P032",
+      "target": "P041",
+      "type": "outbound"
+    },
+    {
+      "source": "P032",
+      "target": "P044",
+      "type": "outbound"
+    },
+    {
+      "source": "P033",
+      "target": "P001",
+      "type": "outbound"
+    },
+    {
+      "source": "P033",
+      "target": "P002",
+      "type": "outbound"
+    },
+    {
+      "source": "P033",
+      "target": "P005",
+      "type": "outbound"
+    },
+    {
+      "source": "P033",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P033",
+      "target": "P041",
+      "type": "outbound"
+    },
+    {
+      "source": "P033",
+      "target": "P044",
+      "type": "outbound"
+    },
+    {
+      "source": "P034",
+      "target": "P005",
+      "type": "outbound"
+    },
+    {
+      "source": "P034",
+      "target": "P044",
+      "type": "outbound"
+    },
+    {
+      "source": "P034",
+      "target": "P050",
+      "type": "outbound"
+    },
+    {
+      "source": "P035",
+      "target": "P005",
+      "type": "outbound"
+    },
+    {
+      "source": "P035",
+      "target": "P044",
+      "type": "outbound"
+    },
+    {
+      "source": "P035",
+      "target": "P050",
+      "type": "outbound"
+    },
+    {
+      "source": "P039",
+      "target": "P005",
+      "type": "outbound"
+    },
+    {
+      "source": "P039",
+      "target": "P044",
+      "type": "outbound"
+    },
+    {
+      "source": "P039",
+      "target": "P050",
+      "type": "outbound"
+    },
+    {
+      "source": "P039",
+      "target": "P051",
+      "type": "outbound"
+    },
+    {
+      "source": "P048",
+      "target": "P005",
+      "type": "outbound"
+    },
+    {
+      "source": "P048",
+      "target": "P044",
+      "type": "outbound"
+    },
+    {
+      "source": "P048",
+      "target": "P050",
+      "type": "outbound"
+    },
+    {
+      "source": "P048",
+      "target": "P068",
+      "type": "outbound"
+    },
+    {
+      "source": "P053",
+      "target": "P005",
+      "type": "outbound"
+    },
+    {
+      "source": "P053",
+      "target": "P044",
+      "type": "outbound"
+    },
+    {
+      "source": "P053",
+      "target": "P050",
+      "type": "outbound"
+    },
+    {
+      "source": "P021",
+      "target": "P005",
+      "type": "outbound"
+    },
+    {
+      "source": "P021",
+      "target": "P044",
+      "type": "outbound"
+    },
+    {
+      "source": "P021",
+      "target": "P050",
+      "type": "outbound"
+    },
+    {
+      "source": "P043",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P043",
+      "target": "P041",
+      "type": "outbound"
+    },
+    {
+      "source": "P043",
+      "target": "P051",
+      "type": "outbound"
+    },
+    {
+      "source": "P058",
+      "target": "P015",
+      "type": "outbound"
+    },
+    {
+      "source": "P058",
+      "target": "P016",
+      "type": "outbound"
+    },
+    {
+      "source": "P058",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P058",
+      "target": "P051",
+      "type": "outbound"
+    },
+    {
+      "source": "P083",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P083",
+      "target": "P042",
+      "type": "outbound"
+    },
+    {
+      "source": "P083",
+      "target": "P051",
+      "type": "outbound"
+    },
+    {
+      "source": "P083",
+      "target": "P068",
+      "type": "outbound"
+    },
+    {
+      "source": "P084",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P084",
+      "target": "P042",
+      "type": "outbound"
+    },
+    {
+      "source": "P084",
+      "target": "P051",
+      "type": "outbound"
+    },
+    {
+      "source": "P084",
+      "target": "P068",
+      "type": "outbound"
+    },
+    {
+      "source": "P040",
+      "target": "P001",
+      "type": "outbound"
+    },
+    {
+      "source": "P040",
+      "target": "P005",
+      "type": "outbound"
+    },
+    {
+      "source": "P040",
+      "target": "P007",
+      "type": "outbound"
+    },
+    {
+      "source": "P040",
+      "target": "P015",
+      "type": "outbound"
+    },
+    {
+      "source": "P040",
+      "target": "P010",
+      "type": "outbound"
+    },
+    {
+      "source": "P040",
+      "target": "P153",
+      "type": "outbound"
+    },
+    {
+      "source": "P040",
+      "target": "P154",
+      "type": "outbound"
+    },
+    {
+      "source": "P040",
+      "target": "P156",
+      "type": "outbound"
+    },
+    {
+      "source": "P050",
+      "target": "P003",
+      "type": "outbound"
+    },
+    {
+      "source": "P050",
+      "target": "P006",
+      "type": "outbound"
+    },
+    {
+      "source": "P050",
+      "target": "P032",
+      "type": "outbound"
+    },
+    {
+      "source": "P050",
+      "target": "P033",
+      "type": "outbound"
+    },
+    {
+      "source": "P050",
+      "target": "P041",
+      "type": "outbound"
+    },
+    {
+      "source": "P050",
+      "target": "P068",
+      "type": "outbound"
+    },
+    {
+      "source": "P050",
+      "target": "P069",
+      "type": "outbound"
+    },
+    {
+      "source": "P052",
+      "target": "P050",
+      "type": "outbound"
+    },
+    {
+      "source": "P052",
+      "target": "P043",
+      "type": "outbound"
+    },
+    {
+      "source": "P052",
+      "target": "P068",
+      "type": "outbound"
+    },
+    {
+      "source": "P070",
+      "target": "P009",
+      "type": "outbound"
+    },
+    {
+      "source": "P070",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P070",
+      "target": "P043",
+      "type": "outbound"
+    },
+    {
+      "source": "P070",
+      "target": "P044",
+      "type": "outbound"
+    },
+    {
+      "source": "P078",
+      "target": "P041",
+      "type": "outbound"
+    },
+    {
+      "source": "P078",
+      "target": "P051",
+      "type": "outbound"
+    },
+    {
+      "source": "P078",
+      "target": "P052",
+      "type": "outbound"
+    },
+    {
+      "source": "P078",
+      "target": "P068",
+      "type": "outbound"
+    },
+    {
+      "source": "P085",
+      "target": "P009",
+      "type": "outbound"
+    },
+    {
+      "source": "P085",
+      "target": "P025",
+      "type": "outbound"
+    },
+    {
+      "source": "P085",
+      "target": "P026",
+      "type": "outbound"
+    },
+    {
+      "source": "P085",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P085",
+      "target": "P064",
+      "type": "outbound"
+    },
+    {
+      "source": "P085",
+      "target": "P069",
+      "type": "outbound"
+    },
+    {
+      "source": "P086",
+      "target": "P001",
+      "type": "outbound"
+    },
+    {
+      "source": "P086",
+      "target": "P002",
+      "type": "outbound"
+    },
+    {
+      "source": "P086",
+      "target": "P005",
+      "type": "outbound"
+    },
+    {
+      "source": "P086",
+      "target": "P036",
+      "type": "outbound"
+    },
+    {
+      "source": "P086",
+      "target": "P038",
+      "type": "outbound"
+    },
+    {
+      "source": "P086",
+      "target": "P050",
+      "type": "outbound"
+    },
+    {
+      "source": "P087",
+      "target": "P005",
+      "type": "outbound"
+    },
+    {
+      "source": "P087",
+      "target": "P036",
+      "type": "outbound"
+    },
+    {
+      "source": "P087",
+      "target": "P037",
+      "type": "outbound"
+    },
+    {
+      "source": "P087",
+      "target": "P038",
+      "type": "outbound"
+    },
+    {
+      "source": "P087",
+      "target": "P071",
+      "type": "outbound"
+    },
+    {
+      "source": "P028",
+      "target": "P024",
+      "type": "outbound"
+    },
+    {
+      "source": "P028",
+      "target": "P025",
+      "type": "outbound"
+    },
+    {
+      "source": "P028",
+      "target": "P026",
+      "type": "outbound"
+    },
+    {
+      "source": "P028",
+      "target": "P029",
+      "type": "outbound"
+    },
+    {
+      "source": "P028",
+      "target": "P030",
+      "type": "outbound"
+    },
+    {
+      "source": "P029",
+      "target": "P005",
+      "type": "outbound"
+    },
+    {
+      "source": "P029",
+      "target": "P044",
+      "type": "outbound"
+    },
+    {
+      "source": "P029",
+      "target": "P050",
+      "type": "outbound"
+    },
+    {
+      "source": "P030",
+      "target": "P005",
+      "type": "outbound"
+    },
+    {
+      "source": "P030",
+      "target": "P044",
+      "type": "outbound"
+    },
+    {
+      "source": "P030",
+      "target": "P050",
+      "type": "outbound"
+    },
+    {
+      "source": "P042",
+      "target": "P028",
+      "type": "outbound"
+    },
+    {
+      "source": "P042",
+      "target": "P029",
+      "type": "outbound"
+    },
+    {
+      "source": "P042",
+      "target": "P044",
+      "type": "outbound"
+    },
+    {
+      "source": "P042",
+      "target": "P050",
+      "type": "outbound"
+    },
+    {
+      "source": "P065",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P065",
+      "target": "P043",
+      "type": "outbound"
+    },
+    {
+      "source": "P065",
+      "target": "P044",
+      "type": "outbound"
+    },
+    {
+      "source": "P072",
+      "target": "P028",
+      "type": "outbound"
+    },
+    {
+      "source": "P072",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P072",
+      "target": "P042",
+      "type": "outbound"
+    },
+    {
+      "source": "P072",
+      "target": "P051",
+      "type": "outbound"
+    },
+    {
+      "source": "P067",
+      "target": "P028",
+      "type": "outbound"
+    },
+    {
+      "source": "P067",
+      "target": "P029",
+      "type": "outbound"
+    },
+    {
+      "source": "P067",
+      "target": "P030",
+      "type": "outbound"
+    },
+    {
+      "source": "P067",
+      "target": "P042",
+      "type": "outbound"
+    },
+    {
+      "source": "P095",
+      "target": "P042",
+      "type": "outbound"
+    },
+    {
+      "source": "P095",
+      "target": "P067",
+      "type": "outbound"
+    },
+    {
+      "source": "P095",
+      "target": "P028",
+      "type": "outbound"
+    },
+    {
+      "source": "P096",
+      "target": "P001",
+      "type": "outbound"
+    },
+    {
+      "source": "P096",
+      "target": "P002",
+      "type": "outbound"
+    },
+    {
+      "source": "P096",
+      "target": "P005",
+      "type": "outbound"
+    },
+    {
+      "source": "P096",
+      "target": "P028",
+      "type": "outbound"
+    },
+    {
+      "source": "P096",
+      "target": "P067",
+      "type": "outbound"
+    },
+    {
+      "source": "P097",
+      "target": "P028",
+      "type": "outbound"
+    },
+    {
+      "source": "P097",
+      "target": "P067",
+      "type": "outbound"
+    },
+    {
+      "source": "P098",
+      "target": "P028",
+      "type": "outbound"
+    },
+    {
+      "source": "P098",
+      "target": "P067",
+      "type": "outbound"
+    },
+    {
+      "source": "P098",
+      "target": "P042",
+      "type": "outbound"
+    },
+    {
+      "source": "P056",
+      "target": "P005",
+      "type": "outbound"
+    },
+    {
+      "source": "P056",
+      "target": "P036",
+      "type": "outbound"
+    },
+    {
+      "source": "P056",
+      "target": "P037",
+      "type": "outbound"
+    },
+    {
+      "source": "P056",
+      "target": "P038",
+      "type": "outbound"
+    },
+    {
+      "source": "P056",
+      "target": "P056",
+      "type": "outbound"
+    },
+    {
+      "source": "P057",
+      "target": "P005",
+      "type": "outbound"
+    },
+    {
+      "source": "P057",
+      "target": "P036",
+      "type": "outbound"
+    },
+    {
+      "source": "P057",
+      "target": "P044",
+      "type": "outbound"
+    },
+    {
+      "source": "P057",
+      "target": "P050",
+      "type": "outbound"
+    },
+    {
+      "source": "P099",
+      "target": "P078",
+      "type": "outbound"
+    },
+    {
+      "source": "P100",
+      "target": "P005",
+      "type": "outbound"
+    },
+    {
+      "source": "P100",
+      "target": "P036",
+      "type": "outbound"
+    },
+    {
+      "source": "P100",
+      "target": "P037",
+      "type": "outbound"
+    },
+    {
+      "source": "P100",
+      "target": "P038",
+      "type": "outbound"
+    },
+    {
+      "source": "P100",
+      "target": "P056",
+      "type": "outbound"
+    },
+    {
+      "source": "P101",
+      "target": "P005",
+      "type": "outbound"
+    },
+    {
+      "source": "P101",
+      "target": "P071",
+      "type": "outbound"
+    },
+    {
+      "source": "P102",
+      "target": "P056",
+      "type": "outbound"
+    },
+    {
+      "source": "P102",
+      "target": "P057",
+      "type": "outbound"
+    },
+    {
+      "source": "P066",
+      "target": "P028",
+      "type": "outbound"
+    },
+    {
+      "source": "P066",
+      "target": "P029",
+      "type": "outbound"
+    },
+    {
+      "source": "P066",
+      "target": "P030",
+      "type": "outbound"
+    },
+    {
+      "source": "P075",
+      "target": "P013",
+      "type": "outbound"
+    },
+    {
+      "source": "P075",
+      "target": "P014",
+      "type": "outbound"
+    },
+    {
+      "source": "P075",
+      "target": "P028",
+      "type": "outbound"
+    },
+    {
+      "source": "P076",
+      "target": "P013",
+      "type": "outbound"
+    },
+    {
+      "source": "P076",
+      "target": "P041",
+      "type": "outbound"
+    },
+    {
+      "source": "P076",
+      "target": "P028",
+      "type": "outbound"
+    },
+    {
+      "source": "P077",
+      "target": "P005",
+      "type": "outbound"
+    },
+    {
+      "source": "P077",
+      "target": "P029",
+      "type": "outbound"
+    },
+    {
+      "source": "P077",
+      "target": "P044",
+      "type": "outbound"
+    },
+    {
+      "source": "P073",
+      "target": "P007",
+      "type": "outbound"
+    },
+    {
+      "source": "P073",
+      "target": "P008",
+      "type": "outbound"
+    },
+    {
+      "source": "P073",
+      "target": "P023",
+      "type": "outbound"
+    },
+    {
+      "source": "P073",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P080",
+      "target": "P050",
+      "type": "outbound"
+    },
+    {
+      "source": "P080",
+      "target": "P068",
+      "type": "outbound"
+    },
+    {
+      "source": "P153",
+      "target": "P007",
+      "type": "outbound"
+    },
+    {
+      "source": "P153",
+      "target": "P001",
+      "type": "outbound"
+    },
+    {
+      "source": "P153",
+      "target": "P005",
+      "type": "outbound"
+    },
+    {
+      "source": "P153",
+      "target": "P015",
+      "type": "outbound"
+    },
+    {
+      "source": "P154",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P154",
+      "target": "P025",
+      "type": "outbound"
+    },
+    {
+      "source": "P155",
+      "target": "P007",
+      "type": "outbound"
+    },
+    {
+      "source": "P155",
+      "target": "P001",
+      "type": "outbound"
+    },
+    {
+      "source": "P155",
+      "target": "P153",
+      "type": "outbound"
+    },
+    {
+      "source": "P156",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P156",
+      "target": "P114",
+      "type": "outbound"
+    },
+    {
+      "source": "P156",
+      "target": "P010",
+      "type": "outbound"
+    },
+    {
+      "source": "P157",
+      "target": "P007",
+      "type": "outbound"
+    },
+    {
+      "source": "P157",
+      "target": "P001",
+      "type": "outbound"
+    },
+    {
+      "source": "P157",
+      "target": "P010",
+      "type": "outbound"
+    },
+    {
+      "source": "P157",
+      "target": "P108",
+      "type": "outbound"
+    },
+    {
+      "source": "P158",
+      "target": "P001",
+      "type": "outbound"
+    },
+    {
+      "source": "P158",
+      "target": "P157",
+      "type": "outbound"
+    },
+    {
+      "source": "P158",
+      "target": "P108",
+      "type": "outbound"
+    },
+    {
+      "source": "P158",
+      "target": "P005",
+      "type": "outbound"
+    },
+    {
+      "source": "P159",
+      "target": "P114",
+      "type": "outbound"
+    },
+    {
+      "source": "P159",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P159",
+      "target": "P153",
+      "type": "outbound"
+    },
+    {
+      "source": "P159",
+      "target": "P108",
+      "type": "outbound"
+    },
+    {
+      "source": "P160",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P160",
+      "target": "P153",
+      "type": "outbound"
+    },
+    {
+      "source": "P160",
+      "target": "P108",
+      "type": "outbound"
+    },
+    {
+      "source": "P161",
+      "target": "P001",
+      "type": "outbound"
+    },
+    {
+      "source": "P161",
+      "target": "P040",
+      "type": "outbound"
+    },
+    {
+      "source": "P161",
+      "target": "P153",
+      "type": "outbound"
+    },
+    {
+      "source": "P161",
+      "target": "P005",
+      "type": "outbound"
+    }
+  ]
+}
