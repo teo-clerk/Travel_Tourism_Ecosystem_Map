@@ -8,9 +8,9 @@
         "Infrastructure Integrators"
       ],
       "color": "#1F8C7D",
-      "description": "European low-cost airline, 500+ routes, 40M+ annual passengers",
-      "market_size": "\u20ac7.2B revenue",
-      "business_model": "Direct fares, ancillary revenue (baggage, seats, food), commission through GDS",
+      "description": "European low-cost airline, 500+ routes, 183.5M passengers (FY24)",
+      "market_size": "€13.44B revenue (FY24)",
+      "business_model": "Ultra-low-cost, direct sales (90%+), ancillary revenue (baggage, seats), partnerships with approved OTAs (Booking, Expedia)",
       "outbound": [
         "P002",
         "P003",
@@ -89,9 +89,9 @@
         "Market Aggregators"
       ],
       "color": "#1F8C7D",
-      "description": "Global Distribution System, 435 airlines, 87K+ hotels, 8M+ travel agencies",
-      "market_size": "\u20ac6.5B revenue",
-      "business_model": "Commission-based from airlines/hotels, subscription from travel agencies, data monetization",
+      "description": "Leading Global Distribution System, 440+ airlines, 770K+ hotels, 40% GDS market share",
+      "market_size": "€6.1B revenue (2024)",
+      "business_model": "Transaction fees from providers, subscription for agencies, IT solutions (Altéa), data monetization",
       "outbound": [
         "P001",
         "P002",
@@ -495,9 +495,9 @@
         "Infrastructure Integrators"
       ],
       "color": "#1F8C7D",
-      "description": "Global OTA leader, 112.8B market cap, 2.5M+ accommodations, 69.3% EU market",
-      "market_size": "\u20ac21.4B revenue (2024)",
-      "business_model": "Commission (15-25%), advertising, ancillary services, loyalty programs",
+      "description": "Global OTA leader, dominant in Europe (43% hotel revenue share), 2.5M+ properties",
+      "market_size": "€22.8B revenue (2024)",
+      "business_model": "Agency model (commission), merchant model, advertising, 'Connected Trip' strategy",
       "outbound": [
         "P003",
         "P005",
@@ -592,9 +592,9 @@
         "Experience Designers"
       ],
       "color": "#1F8C7D",
-      "description": "Alternative accommodation platform, 91.1B market cap, 8.1M listings",
-      "market_size": "\u20ac9.9B revenue",
-      "business_model": "3-16% service fee from guests, 14-16% from hosts, experiences, long-term stays",
+      "description": "Global alternative accommodation platform, 7.7M+ active listings, focus on 'Icons' & experiences",
+      "market_size": "$11.1B revenue (2024)",
+      "business_model": "Service fees (guest & host), Experiences, Co-Host Program, 'Icons' category",
       "outbound": [
         "P040",
         "P041",
@@ -3042,6 +3042,54 @@
         "P005"
       ],
       "inbound": []
+    },
+    {
+      "id": "P200",
+      "name": "Travalyst",
+      "segment": "Sustainability",
+      "archetype": [
+        "Regulators & Standards Setters",
+        "Facilitators & Enablers"
+      ],
+      "color": "#7ED321",
+      "description": "Non-profit coalition founded by Prince Harry to promote sustainable travel.",
+      "market_size": "Non-profit",
+      "business_model": "Coalition model, data sharing (Travel Impact Model), certification alignment",
+      "outbound": [
+        "P007",
+        "P008",
+        "P003",
+        "P201",
+        "P009",
+        "P014"
+      ],
+      "inbound": [
+        "P007",
+        "P008",
+        "P003",
+        "P201"
+      ]
+    },
+    {
+      "id": "P201",
+      "name": "Google Flights",
+      "segment": "Metasearch",
+      "archetype": [
+        "Market Aggregators"
+      ],
+      "color": "#B8E986",
+      "description": "Flight search engine leveraging Google search dominance.",
+      "market_size": "Part of Google Ads ecosystem",
+      "business_model": "Referral (mostly free now), data monetization, ad ecosystem driver",
+      "outbound": [
+        "P001",
+        "P002",
+        "P007",
+        "P008"
+      ],
+      "inbound": [
+        "P200"
+      ]
     }
   ],
   "links": [
@@ -5644,6 +5692,16 @@
       "source": "P161",
       "target": "P005",
       "type": "outbound"
-    }
+    },
+    { "source": "P200", "target": "P007", "type": "outbound" },
+    { "source": "P200", "target": "P008", "type": "outbound" },
+    { "source": "P200", "target": "P003", "type": "outbound" },
+    { "source": "P200", "target": "P201", "type": "outbound" },
+    { "source": "P200", "target": "P009", "type": "outbound" },
+    { "source": "P200", "target": "P014", "type": "outbound" },
+    { "source": "P201", "target": "P001", "type": "outbound" },
+    { "source": "P201", "target": "P002", "type": "outbound" },
+    { "source": "P201", "target": "P007", "type": "outbound" },
+    { "source": "P201", "target": "P008", "type": "outbound" }
   ]
 }

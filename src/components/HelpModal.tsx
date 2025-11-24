@@ -1,14 +1,22 @@
 import React from 'react';
 
+// Props for the HelpModal component
 interface HelpModalProps {
-    isOpen: boolean;
-    onClose: () => void;
+    isOpen: boolean; // Controls visibility of the modal
+    onClose: () => void; // Callback to close the modal
 }
 
+/**
+ * HelpModal Component
+ * Displays a modal overlay with instructions on how to use the application.
+ * Explains the map legend, interactions, and tips.
+ */
 const HelpModal: React.FC<HelpModalProps> = ({ isOpen, onClose }) => {
+    // If the modal is not open, do not render anything
     if (!isOpen) return null;
 
     return (
+        // Modal Overlay (Dark background with blur)
         <div style={{
             position: 'fixed',
             top: 0,
@@ -22,6 +30,7 @@ const HelpModal: React.FC<HelpModalProps> = ({ isOpen, onClose }) => {
             justifyContent: 'center',
             alignItems: 'center'
         }} onClick={onClose}>
+            {/* Modal Content Container */}
             <div
                 className="glass-panel animate-fade-in"
                 style={{
@@ -35,8 +44,9 @@ const HelpModal: React.FC<HelpModalProps> = ({ isOpen, onClose }) => {
                     border: '1px solid rgba(255, 255, 255, 0.1)',
                     boxShadow: '0 20px 50px rgba(0,0,0,0.5)'
                 }}
-                onClick={(e) => e.stopPropagation()}
+                onClick={(e) => e.stopPropagation()} // Prevent closing when clicking inside the modal
             >
+                {/* Close Button */}
                 <button
                     onClick={onClose}
                     style={{

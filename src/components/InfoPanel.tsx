@@ -1,11 +1,13 @@
 import React from 'react';
 
+// Props for the InfoPanel component
 interface InfoPanelProps {
-    node: any;
-    allNodes: any[];
-    onClose: () => void;
+    node: any; // The selected node object to display
+    allNodes: any[]; // List of all nodes for resolving relationships
+    onClose: () => void; // Callback to close the panel
 }
 
+// Hardcoded real-world data for specific nodes to enhance realism
 const REAL_DATA: Record<string, { revenue: string; year: string; source: string }> = {
     "P001": { revenue: "€13.44B", year: "2024", source: "Ryanair FY24 Report" },
     "P010": { revenue: "$44B (~€40B)", year: "2024", source: "Uber FY24" },
@@ -15,6 +17,7 @@ const REAL_DATA: Record<string, { revenue: string; year: string; source: string 
     "P154": { revenue: "$6.8M", year: "2023", source: "Virgin Galactic FY23" }
 };
 
+// Descriptions for each archetype to provide context in the UI
 const ARCHETYPE_DESCRIPTIONS: Record<string, string> = {
     "Infrastructure Integrators": "Builds and manages the core physical and digital rails of travel.",
     "Vertical Specialists": "Focuses on deep expertise in specific travel niches.",
@@ -25,34 +28,33 @@ const ARCHETYPE_DESCRIPTIONS: Record<string, string> = {
     "Market Aggregators": "Brings supply and demand together at scale, often acting as the primary search interface."
 };
 
+/**
+ * InfoPanel Component
+ * Displays detailed information about a selected node.
+ * Slides in from the right on desktop, or appears as a fullscreen modal on mobile.
+ */
 const InfoPanel: React.FC<InfoPanelProps> = ({ node, allNodes, onClose }) => {
+    // If no node is selected, do not render anything
     if (!node) return null;
 
+    // Check if we have verified real-world data for this node
     const realData = REAL_DATA[node.id];
 
-    // Helper to get name from ID
+    // Helper to resolve a node ID to its name
     const getName = (id: string) => {
         const found = allNodes.find(n => n.id === id);
         return found ? found.name : id;
     };
 
     return (
-        <div className="glass-panel animate-fade-in" style={{
-            position: 'absolute',
-            top: '20px',
-            right: '20px',
-            width: '400px',
-            maxHeight: '90vh',
-            overflowY: 'auto',
-            borderRadius: '24px',
-            padding: '32px',
-            zIndex: 1000,
+        <div className="glass-panel animate-fade-in info-panel-container" style={{
             borderLeft: `6px solid ${node.color}`,
             color: '#e0e0e0',
-            boxShadow: '0 20px 40px rgba(0,0,0,0.4)'
         }}>
+            {/* Close Button */}
             <button
                 onClick={onClose}
+                className="info-panel-close-btn"
                 style={{
                     position: 'absolute',
                     top: '20px',
@@ -71,7 +73,7 @@ const InfoPanel: React.FC<InfoPanelProps> = ({ node, allNodes, onClose }) => {
                 ×
             </button>
 
-            {/* Header Section */}
+            {/* Header Section: Segment, Name, and Archetypes */}
             <div style={{ marginBottom: '24px' }}>
                 <div style={{
                     fontSize: '11px',
@@ -137,7 +139,7 @@ const InfoPanel: React.FC<InfoPanelProps> = ({ node, allNodes, onClose }) => {
                 </div>
             </div>
 
-            {/* Overview */}
+            {/* Overview Section */}
             <div style={{ marginBottom: '32px' }}>
                 <h3 style={{ fontSize: '12px', textTransform: 'uppercase', color: 'rgba(255,255,255,0.4)', marginBottom: '12px', letterSpacing: '1px' }}>Overview</h3>
                 <p style={{
@@ -151,7 +153,7 @@ const InfoPanel: React.FC<InfoPanelProps> = ({ node, allNodes, onClose }) => {
                 </p>
             </div>
 
-            {/* Financials */}
+            {/* Financials Section */}
             <div style={{
                 backgroundColor: 'rgba(0,0,0,0.3)',
                 borderRadius: '16px',
@@ -185,7 +187,7 @@ const InfoPanel: React.FC<InfoPanelProps> = ({ node, allNodes, onClose }) => {
                 )}
             </div>
 
-            {/* Business Model */}
+            {/* Business Model Section */}
             {node.business_model && (
                 <div style={{ marginBottom: '32px' }}>
                     <h3 style={{ fontSize: '12px', textTransform: 'uppercase', color: 'rgba(255,255,255,0.4)', marginBottom: '12px', letterSpacing: '1px' }}>Revenue Model</h3>
@@ -200,7 +202,7 @@ const InfoPanel: React.FC<InfoPanelProps> = ({ node, allNodes, onClose }) => {
                 </div>
             )}
 
-            {/* Connections */}
+            {/* Connections Section (Inbound/Outbound) */}
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '24px', borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '24px' }}>
                 <div>
                     <h3 style={{ fontSize: '11px', textTransform: 'uppercase', color: 'rgba(255,255,255,0.4)', marginBottom: '12px' }}>Connects To ({node.outbound.length})</h3>
